@@ -57,9 +57,12 @@ ENEMY
 1414~1594頭破壊
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 1595~1720死んだふり
 1721~1900死んだふりチラ見
 1901~1960死んだふり立ち上がり
+=======
+>>>>>>> parent of f8669b3 (Merge branch 'sato-wire' into Fukumoto_Branch)
 =======
 >>>>>>> parent of f8669b3 (Merge branch 'sato-wire' into Fukumoto_Branch)
 =======
