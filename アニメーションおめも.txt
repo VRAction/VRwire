@@ -52,17 +52,13 @@ ENEMY
 グレネード 600~710
 711~771ダメージ
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> parent of f7180c3 (revert)
-=======
->>>>>>> parent of f8669b3 (Merge branch 'sato-wire' into Fukumoto_Branch)
 772~1290 見回し
 1291~1351 発見
 1351~1413腕破壊
 1414~1594頭破壊
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81,8 +77,6 @@ ENEMY
 772~892 見回し
 >>>>>>> parent of 6e5eed5 (死んだふりFBX)
 >>>>>>> parent of f7180c3 (revert)
-=======
->>>>>>> parent of f8669b3 (Merge branch 'sato-wire' into Fukumoto_Branch)
 
 走りからカバー
 左右歩き
