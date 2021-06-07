@@ -1,0 +1,1040 @@
+﻿Log file open, 03/01/21 18:35:24
+LogInit: Display: Running engine for game: VRActionProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.798015
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin RidingSystem
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.03.01-09.35.25:055][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.03.01-09.35.25:055][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Engine.ini]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.AnisotropicBRDF:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2021.03.01-09.35.25:056][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2021.03.01-09.35.25:057][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2021.03.01-09.35.25:057][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2021.03.01-09.35.25:057][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2021.03.01-09.35.25:057][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2021.03.01-09.35.25:057][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2021.03.01-09.35.25:057][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2021.03.01-09.35.25:057][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Engine.ini]
+[2021.03.01-09.35.25:058][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Engine.ini]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Engine.ini]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.03.01-09.35.25:058][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.03.01-09.35.25:059][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.03.01-09.35.25:059][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.03.01-09.35.25:059][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.03.01-09.35.25:059][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.03.01-09.35.25:059][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.03.01-09.35.25:059][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.03.01-09.35.25:059][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.03.01-09.35.25:059][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.03.01-09.35.25:059][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.03.01-09.35.25:059][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.03.01-09.35.25:059][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Engine.ini]
+[2021.03.01-09.35.25:059][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Engine.ini]
+[2021.03.01-09.35.25:063][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.01-09.35.25:063][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.03.01-09.35.25:064][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.03.01-09.35.25:064][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.01-09.35.25:064][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.03.01-09.35.25:065][  0]LogHAL: Display: Platform has ~ 32 GB [34277142528 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.03.01-09.35.25:065][  0]LogInit: Going up to parent DeviceProfile []
+[2021.03.01-09.35.25:066][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.01-09.35.25:066][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.03.01-09.35.25:067][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.03.01-09.35.25:071][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.03.01-09.35.25:071][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.03.01-09.35.25:071][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.03.01-09.35.25:071][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Engine.ini]
+[2021.03.01-09.35.25:072][  0]LogInit: Computer: DESKTOP-SURJKQ5
+[2021.03.01-09.35.25:072][  0]LogInit: User: sotarofukumoto
+[2021.03.01-09.35.25:072][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.03.01-09.35.25:072][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.03.01-09.35.25:072][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.03.01-09.35.25:072][  0]LogMemory: Platform Memory Stats for Windows
+[2021.03.01-09.35.25:072][  0]LogMemory: Process Physical Memory: 121.46 MB used, 121.47 MB peak
+[2021.03.01-09.35.25:072][  0]LogMemory: Process Virtual Memory: 110.65 MB used, 110.65 MB peak
+[2021.03.01-09.35.25:072][  0]LogMemory: Physical Memory: 8125.11 MB used,  24564.12 MB free, 32689.23 MB total
+[2021.03.01-09.35.25:072][  0]LogMemory: Virtual Memory: 5207.00 MB used,  134212520.00 MB free, 134217728.00 MB total
+[2021.03.01-09.35.25:077][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.03.01-09.35.25:299][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.03.01-09.35.25:302][  0]LogInit: Using OS detected language (ja-JP).
+[2021.03.01-09.35.25:302][  0]LogInit: Using OS detected locale (ja-JP).
+[2021.03.01-09.35.25:314][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2021.03.01-09.35.25:505][  0]LogInit: Setting process to per monitor DPI aware
+[2021.03.01-09.35.25:587][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.03.01-09.35.25:588][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.03.01-09.35.27:654][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.03.01-09.35.27:654][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.03.01-09.35.27:654][  0]LogD3D11RHI: D3D11 adapters:
+[2021.03.01-09.35.27:710][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2021.03.01-09.35.27:710][  0]LogD3D11RHI:       6052/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.03.01-09.35.27:712][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.03.01-09.35.27:712][  0]LogD3D11RHI:       0/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.03.01-09.35.27:712][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.03.01-09.35.27:717][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.03.01-09.35.27:717][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2021.03.01-09.35.27:717][  0]LogWindows: EnumDisplayDevices:
+[2021.03.01-09.35.27:717][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2021.03.01-09.35.27:717][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.03.01-09.35.27:717][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.03.01-09.35.27:718][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.03.01-09.35.27:718][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.03.01-09.35.27:718][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2021.03.01-09.35.27:718][  0]LogD3D11RHI:   Driver Version: 457.51 (internal:27.21.14.5751, unified:457.51)
+[2021.03.01-09.35.27:718][  0]LogD3D11RHI:      Driver Date: 11-22-2020
+[2021.03.01-09.35.27:718][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2021.03.01-09.35.27:762][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.03.01-09.35.27:762][  0]LogD3D11RHI: Async texture creation enabled
+[2021.03.01-09.35.27:762][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.03.01-09.35.27:801][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.03.01-09.35.28:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.03.01-09.35.28:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.03.01-09.35.28:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.03.01-09.35.28:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.03.01-09.35.28:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.03.01-09.35.28:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.03.01-09.35.28:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.03.01-09.35.28:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.03.01-09.35.28:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.03.01-09.35.28:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.03.01-09.35.28:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.03.01-09.35.28:253][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.03.01-09.35.28:253][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.03.01-09.35.28:270][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.03.01-09.35.28:280][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.03.01-09.35.28:289][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.03.01-09.35.28:298][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.03.01-09.35.28:308][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.03.01-09.35.28:317][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.03.01-09.35.28:326][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.03.01-09.35.28:354][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.03.01-09.35.28:354][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.03.01-09.35.28:368][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.03.01-09.35.28:368][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.03.01-09.35.28:378][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.03.01-09.35.28:388][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.03.01-09.35.28:397][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.03.01-09.35.28:406][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.03.01-09.35.28:406][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.03.01-09.35.28:444][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.03.01-09.35.28:579][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Intermediate/Shaders/WorkingDirectory/14464/).
+[2021.03.01-09.35.28:579][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sotaro fukumoto/AppData/Local/Temp/UnrealShaderWorkingDir/5FDF13C54DF9E81067D31D9D4DD438FA/'.
+[2021.03.01-09.35.28:580][  0]LogXGEController: Cleaning working directory: C:/Users/sotaro fukumoto/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.03.01-09.35.28:580][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.03.01-09.35.28:580][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.03.01-09.35.28:580][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.03.01-09.35.30:969][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.03.01-09.35.31:092][  0]LogDerivedDataCache: Loaded boot cache 0.12s 98MB C:/Users/sotaro fukumoto/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.01-09.35.31:092][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/sotaro fukumoto/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.03.01-09.35.31:093][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.03.01-09.35.31:093][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.03.01-09.35.31:093][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.01-09.35.31:093][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.03.01-09.35.31:111][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.03.01-09.35.31:111][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.01-09.35.31:111][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.03.01-09.35.31:112][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sotaro fukumoto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.03.01-09.35.31:112][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.03.01-09.35.31:112][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.03.01-09.35.31:157][  0]LogSlate: Using FreeType 2.10.0
+[2021.03.01-09.35.31:170][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.03.01-09.35.31:207][  0]LogAssetRegistry: FAssetRegistry took 0.0045 seconds to start up
+[2021.03.01-09.35.31:489][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.01-09.35.31:728][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.03.01-09.35.31:728][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.03.01-09.35.31:728][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.03.01-09.35.31:728][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.03.01-09.35.31:729][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.03.01-09.35.31:785][  0]LogNetVersion: VRActionProject 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1680460826)
+[2021.03.01-09.35.32:906][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000179A4A697C0), frame # 0
+[2021.03.01-09.35.32:906][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000179A493D1C0), frame # 0
+[2021.03.01-09.35.32:910][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000179A4943600), frame # 0
+[2021.03.01-09.35.33:001][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.058936 seconds
+[2021.03.01-09.35.33:006][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.03.01-09.35.33:006][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.03.01-09.35.33:006][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.03.01-09.35.33:935][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.03.01-09.35.33:943][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.03.01-09.35.34:165][  0]SourceControl: ソースコントロールは無効です
+[2021.03.01-09.35.34:165][  0]SourceControl: ソースコントロールは無効です
+[2021.03.01-09.35.34:179][  0]SourceControl: ソースコントロールは無効です
+[2021.03.01-09.35.34:186][  0]SourceControl: ソースコントロールは無効です
+[2021.03.01-09.35.34:197][  0]SourceControl: ソースコントロールは無効です
+[2021.03.01-09.35.34:672][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.03.01-09.35.34:698][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.01-09.35.34:698][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.01-09.35.34:786][  0]LogOcInput: OculusInput pre-init called
+[2021.03.01-09.35.35:154][  0]LogEngine: Initializing Engine...
+[2021.03.01-09.35.35:156][  0]LogHMD: Oculus plugin initialized. Version: 4.25.4-14469661+++UE4+Release-4.25, OVRPlugin: 1.44.0
+[2021.03.01-09.35.35:158][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2021.03.01-09.35.35:403][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.03.01-09.35.35:441][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.03.01-09.35.35:441][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000179AB3FBC00), frame # 0
+[2021.03.01-09.35.35:441][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000179AB473240), frame # 0
+[2021.03.01-09.35.35:453][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.01-09.35.35:453][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.01-09.35.35:453][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.01-09.35.35:453][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.01-09.35.35:453][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.01-09.35.35:453][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.01-09.35.35:453][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.01-09.35.35:453][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.01-09.35.35:455][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.01-09.35.35:455][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.01-09.35.35:476][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.01-09.35.35:476][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.03.01-09.35.35:504][  0]LogAudioMixer: Display: Using Audio Device ヘッドホン (2- Rift S)
+[2021.03.01-09.35.35:507][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.01-09.35.35:526][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.01-09.35.35:526][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.01-09.35.35:528][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.01-09.35.35:528][  0]LogInit: FAudioDevice initialized.
+[2021.03.01-09.35.35:529][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.03.01-09.35.35:577][  0]LogDerivedDataCache: Saved boot cache 0.05s 98MB C:/Users/sotaro fukumoto/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.01-09.35.35:581][  0]LogInit: Texture streaming: Enabled
+[2021.03.01-09.35.35:602][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.03.01-09.35.35:602][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.03.01-09.35.35:608][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.03.01-09.35.35:805][  0]LogInit: Transaction tracking system initialized
+[2021.03.01-09.35.35:849][  0]BlueprintLog: New page: エディタの読み込み
+[2021.03.01-09.35.36:015][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2021.03.01-09.35.36:532][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.03.01-09.35.36:532][  0]LogCook: Display: Mobile HDR setting 1
+[2021.03.01-09.35.36:785][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/' took 0.00s
+[2021.03.01-09.35.37:004][  0]SourceControl: ソースコントロールは無効です
+[2021.03.01-09.35.37:005][  0]LogUnrealEdMisc: Loading editor; pre map load, took 16.147
+[2021.03.01-09.35.37:006][  0]Cmd: MAP LOAD FILE="../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/VRPracticeMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.01-09.35.37:007][  0]LightingResults: New page: ライティングのビルド
+[2021.03.01-09.35.37:026][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-09.35.37:027][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-09.35.37:028][  0]MapCheck: New page: マップをチェック
+[2021.03.01-09.35.37:028][  0]LightingResults: New page: <何も選択されていません>
+[2021.03.01-09.35.37:042][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000179AB3FBC00), frame # 0
+[2021.03.01-09.35.37:042][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000179AB473240), frame # 0
+[2021.03.01-09.35.37:043][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.03.01-09.35.37:570][  0]LogAIModule: Creating AISystem for world VRPracticeMap
+[2021.03.01-09.35.37:570][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017996C1E200), frame # 0
+[2021.03.01-09.35.37:570][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017996F31580), frame # 0
+[2021.03.01-09.35.37:587][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.01-09.35.37:599][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.03.01-09.35.37:600][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.01-09.35.37:601][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.957ミリ秒かかりました。
+[2021.03.01-09.35.37:601][  0]LogFileHelpers: Loading map 'VRPracticeMap' took 0.595
+[2021.03.01-09.35.37:629][  0]LogUnrealEdMisc: Total Editor Startup Time, took 16.771
+[2021.03.01-09.35.37:797][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-09.35.37:803][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-09.35.37:808][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-09.35.37:814][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-09.35.37:830][  0]LogCollectionManager: Loaded 0 collections in 0.001461 seconds
+[2021.03.01-09.35.37:861][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Collections/' took 0.00s
+[2021.03.01-09.35.37:861][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/Developers/sotarofukumoto/Collections/' took 0.00s
+[2021.03.01-09.35.37:861][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/Collections/' took 0.00s
+[2021.03.01-09.35.37:861][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 3429 classes and 824 folders.
+[2021.03.01-09.35.37:869][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.03.01-09.35.38:138][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.03.01-09.35.38:155][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2021.03.01-09.35.38:235][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.03.01-09.35.38:235][  0]LogLoad: (Engine Initialization) Total time: 17.38 seconds
+[2021.03.01-09.35.38:235][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.03.01-09.35.38:247][  0]LogOcInput: OculusInput is initialized
+[2021.03.01-09.35.38:270][  0]LogAssetRegistry: Asset discovery search completed in 7.0651 seconds
+[2021.03.01-09.35.38:273][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.03.01-09.35.38:277][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.03.01-09.35.38:289][  0]LogSlate: Took 0.005554 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.03.01-09.35.38:297][  0]LogSlate: Took 0.005674 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Regular.otf' (707K)
+[2021.03.01-09.35.38:303][  0]LogSlate: Took 0.006244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Bold.otf' (698K)
+[2021.03.01-09.35.38:308][  0]LogSlate: Took 0.004760 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-SemiBold.otf' (703K)
+[2021.03.01-09.35.38:312][  0]LogSlate: Took 0.004208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Heavy.otf' (704K)
+[2021.03.01-09.35.38:317][  0]LogSlate: Took 0.004596 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Light.otf' (713K)
+[2021.03.01-09.35.38:325][  0]LogSlate: Took 0.007702 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.03.01-09.35.38:332][  0]LogSlate: Took 0.004530 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.03.01-09.35.38:337][  0]LogSlate: Took 0.004366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.03.01-09.35.38:424][  0]LogSlate: Took 0.005027 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.01-09.35.38:449][  1]LogRenderer: Reallocating scene render targets to support 804x452 Format 26 NumSamples 1 (Frame:1).
+[2021.03.01-09.36.36:646][649]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.01-09.36.36:670][649]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\sotaro fukumoto\Documents\GitHub\VRwire\Joe_Animations\Joe_Arm_WeaponON.fbx)
+[2021.03.01-09.36.36:701][649]LogFbx: Loading FBX Scene from C:\Users\sotaro fukumoto\Documents\GitHub\VRwire\Joe_Animations\Joe_Arm_WeaponON.fbx
+[2021.03.01-09.36.36:731][649]LogFbx: FBX Scene Loaded Succesfully
+[2021.03.01-09.36.47:533][649]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2021.03.01-09.36.54:167][649]LogSlate: Window 'FBXインポートオプション' being destroyed
+[2021.03.01-09.36.54:194][649]LogFbx: Valid bind pose for Pose (skinCluster780) - UnderArmCage_R
+[2021.03.01-09.36.54:194][649]LogFbx: Valid bind pose for Pose (skinCluster781) - UnderArmCage_R
+[2021.03.01-09.36.54:194][649]LogFbx: Valid bind pose for Pose (skinCluster782) - UnderArmCage_R
+[2021.03.01-09.36.54:194][649]LogFbx: Valid bind pose for Pose (skinCluster783) - UnderArmCage_R
+[2021.03.01-09.36.54:194][649]LogFbx: Valid bind pose for Pose (skinCluster784) - UnderArmCage_R
+[2021.03.01-09.36.54:194][649]LogFbx: Valid bind pose for Pose (skinCluster785) - UnderArmCage_R
+[2021.03.01-09.36.54:194][649]LogFbx: Valid bind pose for Pose (skinCluster786) - UnderArmCage_R
+[2021.03.01-09.36.54:194][649]LogFbx: Valid bind pose for Pose (skinCluster787) - UnderArmCage_R
+[2021.03.01-09.36.54:195][649]LogFbx: Valid bind pose for Pose (skinCluster788) - UnderArmCage_R
+[2021.03.01-09.36.54:195][649]LogFbx: Valid bind pose for Pose (skinCluster789) - UnderArmCage_R
+[2021.03.01-09.36.54:195][649]LogFbx: Valid bind pose for Pose (skinCluster790) - UnderArmCage_R
+[2021.03.01-09.36.54:195][649]LogFbx: Valid bind pose for Pose (skinCluster791) - UnderArmCage_R
+[2021.03.01-09.36.54:195][649]LogFbx: Valid bind pose for Pose (skinCluster792) - UnderArmCage_R
+[2021.03.01-09.36.54:195][649]LogFbx: Valid bind pose for Pose (skinCluster793) - UnderArmCage_R
+[2021.03.01-09.36.54:195][649]LogFbx: Valid bind pose for Pose (skinCluster794) - UnderArmCage_R
+[2021.03.01-09.36.54:195][649]LogFbx: Valid bind pose for Pose (skinCluster795) - UnderArmCage_R
+[2021.03.01-09.36.54:195][649]LogFbx: Valid bind pose for Pose (skinCluster865) - UnderArmCage_R
+[2021.03.01-09.36.54:195][649]LogFbx: Valid bind pose for Pose (skinCluster866) - UnderArmCage_R
+[2021.03.01-09.36.54:195][649]LogFbx: Valid bind pose for Pose (skinCluster867) - UnderArmCage_R
+[2021.03.01-09.36.54:195][649]LogFbx: Valid bind pose for Pose (skinCluster868) - UnderArmCage_R
+[2021.03.01-09.36.54:195][649]LogFbx: Valid bind pose for Pose (skinCluster869) - UnderArmCage_R
+[2021.03.01-09.36.54:195][649]LogFbx: Valid bind pose for Pose (skinCluster870) - UnderArmCage_R
+[2021.03.01-09.36.54:195][649]LogFbx: Valid bind pose for Pose (skinCluster871) - UnderArmCage_R
+[2021.03.01-09.36.54:195][649]LogFbx: Valid bind pose for Pose (skinCluster872) - UnderArmCage_R
+[2021.03.01-09.36.54:196][649]LogFbx: Valid bind pose for Pose (skinCluster873) - UnderArmCage_R
+[2021.03.01-09.36.54:196][649]LogFbx: Valid bind pose for Pose (skinCluster874) - UnderArmCage_R
+[2021.03.01-09.36.54:196][649]LogFbx: Valid bind pose for Pose (skinCluster875) - UnderArmCage_R
+[2021.03.01-09.36.54:196][649]LogFbx: Valid bind pose for Pose (skinCluster876) - UnderArmCage_R
+[2021.03.01-09.36.54:196][649]LogFbx: Valid bind pose for Pose (skinCluster877) - UnderArmCage_R
+[2021.03.01-09.36.54:196][649]LogFbx: Valid bind pose for Pose (skinCluster878) - UnderArmCage_R
+[2021.03.01-09.36.54:196][649]LogFbx: Valid bind pose for Pose (skinCluster879) - UnderArmCage_R
+[2021.03.01-09.36.54:196][649]LogFbx: Valid bind pose for Pose (skinCluster880) - UnderArmCage_R
+[2021.03.01-09.36.54:196][649]LogFbx: Valid bind pose for Pose (skinCluster881) - UnderArmCage_R
+[2021.03.01-09.36.54:196][649]LogFbx: Valid bind pose for Pose (skinCluster882) - UnderArmCage_R
+[2021.03.01-09.36.54:196][649]LogFbx: Valid bind pose for Pose (skinCluster883) - UnderArmCage_R
+[2021.03.01-09.36.54:196][649]LogFbx: Valid bind pose for Pose (skinCluster884) - UnderArmCage_R
+[2021.03.01-09.36.54:196][649]LogFbx: Valid bind pose for Pose (skinCluster885) - UnderArmCage_R
+[2021.03.01-09.36.54:196][649]LogFbx: Valid bind pose for Pose (skinCluster886) - UnderArmCage_R
+[2021.03.01-09.36.54:196][649]LogFbx: Valid bind pose for Pose (skinCluster887) - UnderArmCage_R
+[2021.03.01-09.36.54:196][649]LogFbx: Valid bind pose for Pose (skinCluster888) - UnderArmCage_R
+[2021.03.01-09.36.54:196][649]LogFbx: Valid bind pose for Pose (skinCluster889) - UnderArmCage_R
+[2021.03.01-09.36.54:196][649]LogFbx: Valid bind pose for Pose (skinCluster890) - UnderArmCage_R
+[2021.03.01-09.36.54:197][649]LogFbx: Valid bind pose for Pose (skinCluster891) - UnderArmCage_R
+[2021.03.01-09.36.54:341][649]LogFbx: Warning: Bones digested - 10  Depth of hierarchy - 6
+[2021.03.01-09.36.54:372][649]LogSkeletalMesh: Display: スケルタルComputeTangents MikkTSpace関数:ゼロ長法線ベクターを計算します。
+[2021.03.01-09.36.54:419][649]LogSkeletalMesh: Section 0: 5556 vertices, 4 active bones
+[2021.03.01-09.36.54:419][649]LogSkeletalMesh: Section 0: Material=0, 3932 triangles
+[2021.03.01-09.36.54:421][649]LogSkeletalMesh: Building Skeletal Mesh Joe_Arm_WeaponON...
+[2021.03.01-09.36.54:443][649]LogSkeletalMesh: Display: スケルタルComputeTangents MikkTSpace関数:ゼロ長法線ベクターを計算します。
+[2021.03.01-09.36.54:489][649]LogSkeletalMesh: Section 0: 5556 vertices, 4 active bones
+[2021.03.01-09.36.54:489][649]LogSkeletalMesh: Section 0: Material=0, 3932 triangles
+[2021.03.01-09.36.54:498][649]LogSkeletalMesh: Built Skeletal Mesh [0.08s] /Game/VRActionComtents/Character/Joe/Joe_Arm_WeaponON.Joe_Arm_WeaponON
+[2021.03.01-09.36.54:507][649]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-09.36.54:507][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-09.36.54:509][649]LogFbx: SortedLinks :(0) UnderArm1
+[2021.03.01-09.36.54:509][649]LogFbx: SortedLinks :(1) list
+[2021.03.01-09.36.54:509][649]LogFbx: SortedLinks :(2) WireShooterMover
+[2021.03.01-09.36.54:509][649]LogFbx: SortedLinks :(3) WireShooter
+[2021.03.01-09.36.54:509][649]LogFbx: SortedLinks :(4) WireShooterEnd
+[2021.03.01-09.36.54:509][649]LogFbx: SortedLinks :(5) GunMover
+[2021.03.01-09.36.54:509][649]LogFbx: SortedLinks :(6) GunBody
+[2021.03.01-09.36.54:509][649]LogFbx: SortedLinks :(7) GunOpener
+[2021.03.01-09.36.54:509][649]LogFbx: SortedLinks :(8) GunHead
+[2021.03.01-09.36.54:509][649]LogFbx: SortedLinks :(9) GunHeadEnd
+[2021.03.01-09.36.54:509][649]LogFbx: Parsing AnimStack Take 001
+[2021.03.01-09.36.54:526][649]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VRActionComtents/Character/Joe/Joe_Arm_WeaponON_Anim.Joe_Arm_WeaponON_Anim
+[2021.03.01-09.36.56:439][857]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/VRActionComtents/Character/Joe/Joe_Arm_WeaponON.Joe_Arm_WeaponON
+[2021.03.01-09.36.56:450][857]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2021.03.01-09.36.56:631][857]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.01-09.36.56:640][857]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2021.03.01-09.36.56:750][857]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.03.01-09.36.57:020][858]LogRenderer: Reallocating scene render targets to support 804x608 Format 26 NumSamples 1 (Frame:1).
+[2021.03.01-09.36.59:121][ 91]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/VRActionComtents/Character/Joe/Joe_Arm_WeaponON_Anim.Joe_Arm_WeaponON_Anim
+[2021.03.01-09.36.59:129][ 91]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.01-09.36.59:149][ 91]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.03.01-09.36.59:418][ 91]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.03.01-09.37.08:551][158]LogSlate: Window 'Joe_Arm_WeaponON_Anim' being destroyed
+[2021.03.01-09.37.08:558][158]LogSlate: Window 'Joe_Arm_WeaponON_Anim' being destroyed
+[2021.03.01-09.37.08:558][158]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-09.37.08:558][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-09.37.08:638][158]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-09.37.08:638][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-09.37.08:665][158]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-09.37.08:665][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-09.37.08:736][158]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-09.37.08:736][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-09.37.52:727][375]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.03.01-09.37.52:766][375]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/VRPracticeMapABDB08FF41F4C0BDDBF65EB6BD0D1631.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/VRPracticeMap.umap'
+[2021.03.01-09.37.52:797][375]AssetCheck: New page: アセット保存:VRPracticeMap
+[2021.03.01-09.37.52:797][375]LogContentValidation: Display: World /Game/VRActionComtents/VRPracticeMap.VRPracticeMap を検証しています
+[2021.03.01-09.37.56:042][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.03.01-09.37.57:421][746]LogSlate: Window 'コンテンツを保存' being destroyed
+[2021.03.01-09.37.57:487][746]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Joe_Arm_WeaponONCC52DDFC44863AC43F78A49B6E288318.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Character/Joe/Joe_Arm_WeaponON.uasset'
+[2021.03.01-09.37.57:510][746]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Joe_Arm_WeaponON_AnimD9F56F07496EB84ADC4953920B42D5C1.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Character/Joe/Joe_Arm_WeaponON_Anim.uasset'
+[2021.03.01-09.37.57:529][746]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Joe_Arm_WeaponON_PhysicsAsset929F34BA42445A84EF337485E354B12B.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Character/Joe/Joe_Arm_WeaponON_PhysicsAsset.uasset'
+[2021.03.01-09.37.57:539][746]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Joe_Arm_WeaponON_Skeleton01DB5DE649DD459D02241AB2400C4123.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Character/Joe/Joe_Arm_WeaponON_Skeleton.uasset'
+[2021.03.01-09.37.57:554][746]AssetCheck: New page: アセット保存:複数のアセット
+[2021.03.01-09.37.57:554][746]LogContentValidation: Display: SkeletalMesh /Game/VRActionComtents/Character/Joe/Joe_Arm_WeaponON.Joe_Arm_WeaponON を検証しています
+[2021.03.01-09.37.57:554][746]LogContentValidation: Display: AnimSequence /Game/VRActionComtents/Character/Joe/Joe_Arm_WeaponON_Anim.Joe_Arm_WeaponON_Anim を検証しています
+[2021.03.01-09.37.57:554][746]LogContentValidation: Display: PhysicsAsset /Game/VRActionComtents/Character/Joe/Joe_Arm_WeaponON_PhysicsAsset.Joe_Arm_WeaponON_PhysicsAsset を検証しています
+[2021.03.01-09.37.57:554][746]LogContentValidation: Display: Skeleton /Game/VRActionComtents/Character/Joe/Joe_Arm_WeaponON_Skeleton.Joe_Arm_WeaponON_Skeleton を検証しています
+[2021.03.01-09.39.56:826][893]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/VRActionComtents/Sounds/Joe_Sounds/SC_JOE_DefalutGunOpen.SC_JOE_DefalutGunOpen
+[2021.03.01-09.39.56:963][893]LogSlate: Took 0.005089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.03.01-09.41.04:069][336]LogSlate: Window 'Pitch Curve - 内部カーブエディタ' being destroyed
+[2021.03.01-09.41.14:526][556]LogSlate: Window 'Pitch Curve - 内部カーブエディタ' being destroyed
+[2021.03.01-09.44.02:891][636]LogEditorTransaction: Undo ノードを移動
+[2021.03.01-09.44.12:409][705]LogEditorTransaction: Undo ノードを移動
+[2021.03.01-09.45.33:447][231]LogUObjectHash: Warning: Ambiguous path search, could be SoundCueGraphNode /Engine/EditorSounds/Notifications/CompileFailed_Cue.CompileFailed_Cue:SoundCueGraph_6.SoundCueGraphNode_6 or SoundCueGraphNode /Game/VRActionComtents/Sounds/Joe_Sounds/SC_Joe_WalkSound.SC_Joe_WalkSound:SoundCueGraph_0.SoundCueGraphNode_6
+[2021.03.01-09.45.33:447][231]LogUObjectHash: Warning: Ambiguous path search, could be SoundCueGraphNode /Engine/EditorSounds/Notifications/CompileFailed_Cue.CompileFailed_Cue:SoundCueGraph_6.SoundCueGraphNode_6 or SoundCueGraphNode /Game/VRActionComtents/Sounds/Joe_Sounds/Sc_Joe_WireShoot.SC_Joe_WireShoot:SoundCueGraph_0.SoundCueGraphNode_6
+[2021.03.01-09.45.33:447][231]LogUObjectHash: Warning: Ambiguous path search, could be SoundCueGraphNode /Engine/EditorSounds/Notifications/CompileFailed_Cue.CompileFailed_Cue:SoundCueGraph_6.SoundCueGraphNode_6 or SoundCueGraphNode /Game/VRActionComtents/Sounds/Joe_Sounds/SC_JOE_DefalutGunOpen.SC_JOE_DefalutGunOpen:SoundCueGraph_0.SoundCueGraphNode_6
+[2021.03.01-09.45.33:447][231]LogProperty: Warning: ObjectProperty ChildNodes./Script/Engine.SoundNode:ChildNodes: unresolved reference to 'SoundNodeEnveloper'"SoundCueGraphNode_6.SoundNodeEnveloper_2"''
+[2021.03.01-09.46.09:979][515]LogSlate: Window 'Pitch Curve - 内部カーブエディタ' being destroyed
+[2021.03.01-09.47.35:962][356]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/SC_JOE_DefalutGunOpenE0CAEDBB46C4A86DBECB6D9CD994A3A4.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Sounds/Joe_Sounds/SC_JOE_DefalutGunOpen.uasset'
+[2021.03.01-09.47.35:978][356]AssetCheck: New page: アセット保存:SC_JOE_DefalutGunOpen
+[2021.03.01-09.47.35:978][356]LogContentValidation: Display: SoundCue /Game/VRActionComtents/Sounds/Joe_Sounds/SC_JOE_DefalutGunOpen.SC_JOE_DefalutGunOpen を検証しています
+[2021.03.01-09.48.05:857][569]LogSlate: Window 'Pitch Curve - 内部カーブエディタ' being destroyed
+[2021.03.01-09.49.33:365][743]LogSlate: Window 'Pitch Curve - 内部カーブエディタ' being destroyed
+[2021.03.01-09.50.41:928][893]LogSlate: Window 'Pitch Curve - 内部カーブエディタ' being destroyed
+[2021.03.01-09.51.27:441][258]LogUObjectHash: Warning: Ambiguous path search, could be SoundCueGraphNode /Game/VRActionComtents/Sounds/Joe_Sounds/Sc_Joe_WireShoot.SC_Joe_WireShoot:SoundCueGraph_0.SoundCueGraphNode_11 or SoundCueGraphNode /Game/VRActionComtents/Sounds/Joe_Sounds/SC_Joe_WireHand_HitEndWall.SC_Joe_WireHand_HitEndWall:SoundCueGraph_0.SoundCueGraphNode_11
+[2021.03.01-09.51.27:441][258]LogUObjectHash: Warning: Ambiguous path search, could be SoundCueGraphNode /Game/VRActionComtents/Sounds/Joe_Sounds/Sc_Joe_WireShoot.SC_Joe_WireShoot:SoundCueGraph_0.SoundCueGraphNode_11 or SoundCueGraphNode /Game/VRActionComtents/Sounds/Joe_Sounds/SC_Joe_WireBRASAGARI.SC_Joe_WireBRASAGARI:SoundCueGraph_0.SoundCueGraphNode_11
+[2021.03.01-09.51.27:441][258]LogUObjectHash: Warning: Ambiguous path search, could be SoundCueGraphNode /Game/VRActionComtents/Sounds/Joe_Sounds/Sc_Joe_WireShoot.SC_Joe_WireShoot:SoundCueGraph_0.SoundCueGraphNode_11 or SoundCueGraphNode /Game/VRActionComtents/Sounds/Joe_Sounds/SC_JOE_DefalutGunOpen.SC_JOE_DefalutGunOpen:SoundCueGraph_0.SoundCueGraphNode_11
+[2021.03.01-09.51.27:441][258]LogProperty: Warning: ObjectProperty ChildNodes./Script/Engine.SoundNode:ChildNodes: unresolved reference to 'SoundNodeEnveloper'"SoundCueGraphNode_11.SoundNodeEnveloper_2"''
+[2021.03.01-09.51.42:443][ 16]LogSlate: Window 'Pitch Curve - 内部カーブエディタ' being destroyed
+[2021.03.01-09.51.50:430][944]LogSlate: Window 'Volume Curve - 内部カーブエディタ' being destroyed
+[2021.03.01-09.52.15:993][934]LogSlate: Window 'Volume Curve - 内部カーブエディタ' being destroyed
+[2021.03.01-09.52.46:759][591]LogSlate: Window 'Pitch Curve - 内部カーブエディタ' being destroyed
+[2021.03.01-09.55.28:950][616]LogSlate: Window 'Pitch Curve - 内部カーブエディタ' being destroyed
+[2021.03.01-09.57.53:692][782]LogSlate: Window 'Pitch Curve - 内部カーブエディタ' being destroyed
+[2021.03.01-09.58.21:914][ 97]LogSlate: Window 'Pitch Curve - 内部カーブエディタ' being destroyed
+[2021.03.01-09.59.09:356][694]LogSlate: Window 'Pitch Curve - 内部カーブエディタ' being destroyed
+[2021.03.01-09.59.55:957][255]LogSlate: Window 'Pitch Curve - 内部カーブエディタ' being destroyed
+[2021.03.01-10.00.16:827][679]LogSlate: Window 'Volume Curve - 内部カーブエディタ' being destroyed
+[2021.03.01-10.00.28:487][ 40]LogSlate: Window 'Volume Curve - 内部カーブエディタ' being destroyed
+[2021.03.01-10.00.34:348][715]LogSlate: Window 'Volume Curve - 内部カーブエディタ' being destroyed
+[2021.03.01-10.01.19:759][ 72]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/SC_JOE_DefalutGunOpen500C4DCE445EB1D9489E279364993275.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Sounds/Joe_Sounds/SC_JOE_DefalutGunOpen.uasset'
+[2021.03.01-10.01.19:774][ 72]AssetCheck: New page: アセット保存:SC_JOE_DefalutGunOpen
+[2021.03.01-10.01.19:774][ 72]LogContentValidation: Display: SoundCue /Game/VRActionComtents/Sounds/Joe_Sounds/SC_JOE_DefalutGunOpen.SC_JOE_DefalutGunOpen を検証しています
+[2021.03.01-10.01.35:036][813]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/VRActionComtents/Character/Joe/Joe_Arm_WeaponON_Anim.Joe_Arm_WeaponON_Anim
+[2021.03.01-10.01.35:041][813]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.01-10.01.35:106][813]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.03.01-10.01.35:357][813]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.03.01-10.01.44:009][840]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.01-10.02.54:303][ 61]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/SC_JOE_DefalutGunOpen4971B5684755AFC98F1D0E80073983D0.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Sounds/Joe_Sounds/SC_JOE_DefalutGunOpen.uasset'
+[2021.03.01-10.02.54:317][ 61]AssetCheck: New page: アセット保存:SC_JOE_DefalutGunOpen
+[2021.03.01-10.02.54:317][ 61]LogContentValidation: Display: SoundCue /Game/VRActionComtents/Sounds/Joe_Sounds/SC_JOE_DefalutGunOpen.SC_JOE_DefalutGunOpen を検証しています
+[2021.03.01-10.03.18:274][818]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Joe_Arm_WeaponON_Anim4D8BA74B4E40173A3172558A70875BB4.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Character/Joe/Joe_Arm_WeaponON_Anim.uasset'
+[2021.03.01-10.03.18:288][818]AssetCheck: New page: アセット保存:Joe_Arm_WeaponON_Anim
+[2021.03.01-10.03.18:288][818]LogContentValidation: Display: AnimSequence /Game/VRActionComtents/Character/Joe/Joe_Arm_WeaponON_Anim.Joe_Arm_WeaponON_Anim を検証しています
+[2021.03.01-10.03.19:645][969]LogSlate: Window 'Joe_Arm_WeaponON_Anim' being destroyed
+[2021.03.01-10.03.19:649][969]LogSlate: Window 'Joe_Arm_WeaponON_Anim' being destroyed
+[2021.03.01-10.03.19:666][969]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-10.03.19:666][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-10.03.19:694][969]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-10.03.19:694][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-10.03.19:773][969]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-10.03.19:774][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-10.03.30:309][194]LogScript: Warning: プロパティ CallFunc_TryGetPawnOwner_ReturnValue の読み取りを試行するためのアクセスはありません
+	AnimBP_Joe_C /Engine/Transient.World_15:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_Joe_C_0
+	Function /Game/VRActionComtents/Character/Joe/Animation/AnimBP_Joe.AnimBP_Joe_C:ExecuteUbergraph_AnimBP_Joe:00AB
+[2021.03.01-10.03.36:148][889]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/VRActionComtents/Character/Joe/Animation/Locomotion_Joe.Locomotion_Joe
+[2021.03.01-10.03.36:152][889]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.01-10.03.36:240][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.03.01-10.03.36:485][889]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.03.01-10.03.45:200][917]LogSlate: Window 'Locomotion_Joe' being destroyed
+[2021.03.01-10.03.45:208][917]LogSlate: Window 'Locomotion_Joe' being destroyed
+[2021.03.01-10.03.45:208][917]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-10.03.45:208][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-10.03.45:306][917]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-10.03.45:306][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-10.04.20:946][ 36]LogMetaData: Removing '/Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Catch_L_Anim.Joe_WireHand_Catch_L_Anim' ref from Metadata '/Game/VRActionComtents/Character/Joe/Joe_WireHand_Catch_L_Anim.PackageMetaData'
+[2021.03.01-10.04.20:951][ 36]LogMetaData: Removing '/Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Catch_L_end.Joe_WireHand_Catch_L_end' ref from Metadata '/Game/VRActionComtents/Character/Joe/Joe_WireHand_Catch_L_end.PackageMetaData'
+[2021.03.01-10.04.20:957][ 36]LogMetaData: Removing '/Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Catch_S_end.Joe_WireHand_Catch_S_end' ref from Metadata '/Game/VRActionComtents/Character/Joe/Joe_WireHand_Catch_S_end.PackageMetaData'
+[2021.03.01-10.04.20:961][ 36]LogMetaData: Removing '/Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_CatchNoting.Joe_WireHand_CatchNoting' ref from Metadata '/Game/VRActionComtents/Character/Joe/Joe_WireHand_CatchNoting.PackageMetaData'
+[2021.03.01-10.04.20:966][ 36]LogMetaData: Removing '/Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Flying.Joe_WireHand_Flying' ref from Metadata '/Game/VRActionComtents/Character/Joe/Joe_WireHand_Flying.PackageMetaData'
+[2021.03.01-10.04.20:972][ 36]LogMetaData: Removing '/Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Hit.Joe_WireHand_Hit' ref from Metadata '/Game/VRActionComtents/Character/Joe/Joe_WireHand_Hit.PackageMetaData'
+[2021.03.01-10.04.20:977][ 36]LogMetaData: Removing '/Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_HitState.Joe_WireHand_HitState' ref from Metadata '/Game/VRActionComtents/Character/Joe/Joe_WireHand_HitState.PackageMetaData'
+[2021.03.01-10.04.20:982][ 36]LogMetaData: Removing '/Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Pinch.Joe_WireHand_Pinch' ref from Metadata '/Game/VRActionComtents/Character/Joe/Joe_WireHand_Pinch.PackageMetaData'
+[2021.03.01-10.04.20:987][ 36]LogMetaData: Removing '/Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Pinch_end.Joe_WireHand_Pinch_end' ref from Metadata '/Game/VRActionComtents/Character/Joe/Joe_WireHand_Pinch_end.PackageMetaData'
+[2021.03.01-10.04.20:993][ 36]LogMetaData: Removing '/Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Shoot.Joe_WireHand_Shoot' ref from Metadata '/Game/VRActionComtents/Character/Joe/Joe_WireHand_Shoot.PackageMetaData'
+[2021.03.01-10.04.21:044][ 36]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Joe_WireHand_Catch_L_Anim66041A7C41DE135CF72525B0EE87A6D6.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Catch_L_Anim.uasset'
+[2021.03.01-10.04.21:064][ 36]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Joe_WireHand_Catch_L_end469FDBB64769EA5C09ECB68E2FF026D8.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Catch_L_end.uasset'
+[2021.03.01-10.04.21:085][ 36]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Joe_WireHand_Catch_S_end3291419840505BED64DFA8860227C00A.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Catch_S_end.uasset'
+[2021.03.01-10.04.21:106][ 36]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Joe_WireHand_CatchNoting8D32F8174D8FA868320F81918C975DF2.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_CatchNoting.uasset'
+[2021.03.01-10.04.21:127][ 36]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Joe_WireHand_Flying9B826EAE4E2C0F72E1A93B8E07D04298.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Flying.uasset'
+[2021.03.01-10.04.21:147][ 36]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Joe_WireHand_Hit6FDFA4254BAB90FD3431FD8558F8FED1.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Hit.uasset'
+[2021.03.01-10.04.21:168][ 36]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Joe_WireHand_HitState6A0D062A43AB9024FDCA4194FF79BC6D.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_HitState.uasset'
+[2021.03.01-10.04.21:188][ 36]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Joe_WireHand_PinchF6CF23924F1CFE7833FA918FA254EA84.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Pinch.uasset'
+[2021.03.01-10.04.21:210][ 36]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Joe_WireHand_Pinch_endDBD728834DE6E41921B5A096EC383F4A.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Pinch_end.uasset'
+[2021.03.01-10.04.21:232][ 36]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Joe_WireHand_ShootB0E65985454DB32E19702D90EC1D7822.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Shoot.uasset'
+[2021.03.01-10.04.21:539][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.03.01-10.04.21:551][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2021.03.01-10.04.21:560][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2021.03.01-10.04.21:568][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2021.03.01-10.04.21:577][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2021.03.01-10.04.21:586][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2021.03.01-10.04.21:594][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2021.03.01-10.04.21:603][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2021.03.01-10.04.21:612][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2021.03.01-10.04.21:620][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2021.03.01-10.04.21:636][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.03.01-10.04.21:645][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2021.03.01-10.04.21:686][ 36]AssetCheck: New page: アセット保存:複数のアセット
+[2021.03.01-10.04.21:686][ 36]LogContentValidation: Display: AnimSequence /Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Catch_L_Anim.Joe_WireHand_Catch_L_Anim を検証しています
+[2021.03.01-10.04.21:686][ 36]LogContentValidation: Display: AnimSequence /Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Catch_L_end.Joe_WireHand_Catch_L_end を検証しています
+[2021.03.01-10.04.21:686][ 36]LogContentValidation: Display: AnimSequence /Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Catch_S_end.Joe_WireHand_Catch_S_end を検証しています
+[2021.03.01-10.04.21:686][ 36]LogContentValidation: Display: AnimSequence /Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_CatchNoting.Joe_WireHand_CatchNoting を検証しています
+[2021.03.01-10.04.21:686][ 36]LogContentValidation: Display: AnimSequence /Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Flying.Joe_WireHand_Flying を検証しています
+[2021.03.01-10.04.21:686][ 36]LogContentValidation: Display: AnimSequence /Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Hit.Joe_WireHand_Hit を検証しています
+[2021.03.01-10.04.21:686][ 36]LogContentValidation: Display: AnimSequence /Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_HitState.Joe_WireHand_HitState を検証しています
+[2021.03.01-10.04.21:686][ 36]LogContentValidation: Display: AnimSequence /Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Pinch.Joe_WireHand_Pinch を検証しています
+[2021.03.01-10.04.21:686][ 36]LogContentValidation: Display: AnimSequence /Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Pinch_end.Joe_WireHand_Pinch_end を検証しています
+[2021.03.01-10.04.21:686][ 36]LogContentValidation: Display: AnimSequence /Game/VRActionComtents/Character/Joe/Animation2/Joe_WireHand_Shoot.Joe_WireHand_Shoot を検証しています
+[2021.03.01-10.04.27:817][745]LogMetaData: Removing '/Game/VRActionComtents/Character/Joe/Animation2/Joe_Arm_WeaponON_Anim.Joe_Arm_WeaponON_Anim' ref from Metadata '/Game/VRActionComtents/Character/Joe/Joe_Arm_WeaponON_Anim.PackageMetaData'
+[2021.03.01-10.04.27:869][745]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Joe_Arm_WeaponON_AnimB071F4F248E1625BBDC83C9438DE0ED3.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Character/Joe/Animation2/Joe_Arm_WeaponON_Anim.uasset'
+[2021.03.01-10.04.27:972][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.03.01-10.04.27:988][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2021.03.01-10.04.27:996][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2021.03.01-10.04.28:021][745]AssetCheck: New page: アセット保存:Joe_Arm_WeaponON_Anim
+[2021.03.01-10.04.28:021][745]LogContentValidation: Display: AnimSequence /Game/VRActionComtents/Character/Joe/Animation2/Joe_Arm_WeaponON_Anim.Joe_Arm_WeaponON_Anim を検証しています
+[2021.03.01-10.04.44:817][713]LogSavePackage: Moving '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Joe_WireHand_Catch_LC3F9DDE9489888A85F191DA64C6C7192.tmp' to '../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRActionComtents/Character/Joe/Joe_WireHand_Catch_L.uasset'
+[2021.03.01-10.04.44:906][713]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2021.03.01-10.04.44:933][713]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.03.01-10.04.45:312][713]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.379 s
+[2021.03.01-10.04.45:312][713]LogOutputDevice: Error: === Handled ensure: ===
+[2021.03.01-10.04.45:312][713]LogOutputDevice: Error: 
+[2021.03.01-10.04.45:312][713]LogOutputDevice: Error: Ensure condition failed: !SeenPaths.Contains(NewPath) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/Misc/RedirectCollector.cpp] [Line: 222]
+[2021.03.01-10.04.45:312][713]LogOutputDevice: Error: Found circular redirect from /Game/VRActionComtents/Character/Joe/Joe_WireHand_Catch_L.Joe_WireHand_Catch_L to /Game/VRActionComtents/Character/Joe/Joe_WireHand_Catch_L.Joe_WireHand_Catch_L! Returning None instead
+[2021.03.01-10.04.45:312][713]LogOutputDevice: Error: Stack: 
+[2021.03.01-10.04.45:312][713]LogOutputDevice: Error: [Callstack] 0x00007ffcf11ec5a3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.01-10.04.45:312][713]LogOutputDevice: Error: [Callstack] 0x00007ffcf0ddb7f0 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.01-10.04.45:312][713]LogOutputDevice: Error: [Callstack] 0x00007ffcf10ff42d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.01-10.04.45:312][713]LogOutputDevice: Error: [Callstack] 0x00007ffcf109a0a1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffcf103853f UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffcf10390d4 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffcf1038afe UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffceb508835 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffcec14ffc0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffcec13a021 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffcebc6b9f0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffcebc6a2d5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffcebc7f2e0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffccfd4483a UE4Editor-AssetTools.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffccfdb1592 UE4Editor-AssetTools.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffce2f3b012 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffce2fff639 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffce2ffa36f UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffce300442f UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffce2efcdf0 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffce2efcfee UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffced92ab85 UE4Editor-Slate.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffced931320 UE4Editor-Slate.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffced90a937 UE4Editor-Slate.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffced9a207e UE4Editor-Slate.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffced9bb27e UE4Editor-Slate.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffced932a95 UE4Editor-Slate.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffced802dc8 UE4Editor-Slate.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffced8869cf UE4Editor-Slate.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffced86f4b2 UE4Editor-Slate.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffced862392 UE4Editor-Slate.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffd53737f88 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffd53725c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffd5373a619 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffd537217d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffd93fce858 USER32.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffd93fce299 USER32.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffd5373bb34 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ff7c8fa68c4 UE4Editor.exe!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ff7c8fbba7c UE4Editor.exe!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ff7c8fbbb5a UE4Editor.exe!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ff7c8fce31d UE4Editor.exe!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ff7c8fd145a UE4Editor.exe!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffd924c7034 KERNEL32.DLL!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: [Callstack] 0x00007ffd9429d241 ntdll.dll!UnknownFunction []
+[2021.03.01-10.04.45:313][713]LogOutputDevice: Error: 

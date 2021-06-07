@@ -1,0 +1,2061 @@
+﻿Log file open, 05/26/21 14:12:02
+LogInit: Display: Running engine for game: VRActionProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.178057
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin RidingSystem
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Engine.ini]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.AnisotropicBRDF:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.CustomDepth:3]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2021.05.26-05.12.02:516][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Engine.ini]
+[2021.05.26-05.12.02:517][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Engine.ini]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Engine.ini]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.05.26-05.12.02:517][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Engine.ini]
+[2021.05.26-05.12.02:517][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Engine.ini]
+[2021.05.26-05.12.02:519][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.26-05.12.02:519][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.26-05.12.02:520][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.26-05.12.02:520][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.05.26-05.12.02:520][  0]LogHAL: Display: Platform has ~ 32 GB [34277142528 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.05.26-05.12.02:520][  0]LogInit: Going up to parent DeviceProfile []
+[2021.05.26-05.12.02:520][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.05.26-05.12.02:520][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.26-05.12.02:521][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.05.26-05.12.02:522][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.05.26-05.12.02:522][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.05.26-05.12.02:522][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.05.26-05.12.02:522][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Config/Windows/Engine.ini]
+[2021.05.26-05.12.02:522][  0]LogInit: Computer: DESKTOP-SURJKQ5
+[2021.05.26-05.12.02:522][  0]LogInit: User: sotarofukumoto
+[2021.05.26-05.12.02:522][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.05.26-05.12.02:522][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.05.26-05.12.02:522][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.05.26-05.12.02:522][  0]LogMemory: Platform Memory Stats for Windows
+[2021.05.26-05.12.02:522][  0]LogMemory: Process Physical Memory: 122.15 MB used, 122.16 MB peak
+[2021.05.26-05.12.02:522][  0]LogMemory: Process Virtual Memory: 104.62 MB used, 104.62 MB peak
+[2021.05.26-05.12.02:522][  0]LogMemory: Physical Memory: 7517.40 MB used,  25171.83 MB free, 32689.23 MB total
+[2021.05.26-05.12.02:522][  0]LogMemory: Virtual Memory: 5200.81 MB used,  134212528.00 MB free, 134217728.00 MB total
+[2021.05.26-05.12.02:526][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.05.26-05.12.02:565][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.05.26-05.12.02:567][  0]LogInit: Using OS detected language (ja-JP).
+[2021.05.26-05.12.02:567][  0]LogInit: Using OS detected locale (ja-JP).
+[2021.05.26-05.12.02:569][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2021.05.26-05.12.02:645][  0]LogInit: Setting process to per monitor DPI aware
+[2021.05.26-05.12.02:669][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.05.26-05.12.02:669][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.05.26-05.12.02:776][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.05.26-05.12.02:777][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.05.26-05.12.02:777][  0]LogD3D11RHI: D3D11 adapters:
+[2021.05.26-05.12.02:828][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2021.05.26-05.12.02:828][  0]LogD3D11RHI:       6052/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.05.26-05.12.02:830][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.05.26-05.12.02:830][  0]LogD3D11RHI:       0/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.05.26-05.12.02:830][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.05.26-05.12.02:835][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.05.26-05.12.02:835][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2021.05.26-05.12.02:835][  0]LogWindows: EnumDisplayDevices:
+[2021.05.26-05.12.02:835][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2021.05.26-05.12.02:835][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.05.26-05.12.02:836][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.05.26-05.12.02:836][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.05.26-05.12.02:836][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.05.26-05.12.02:836][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2021.05.26-05.12.02:836][  0]LogD3D11RHI:   Driver Version: 457.51 (internal:27.21.14.5751, unified:457.51)
+[2021.05.26-05.12.02:836][  0]LogD3D11RHI:      Driver Date: 11-22-2020
+[2021.05.26-05.12.02:836][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2021.05.26-05.12.02:878][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.05.26-05.12.02:878][  0]LogD3D11RHI: Async texture creation enabled
+[2021.05.26-05.12.02:878][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.05.26-05.12.02:901][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.05.26-05.12.03:150][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.05.26-05.12.03:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.05.26-05.12.03:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.05.26-05.12.03:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.05.26-05.12.03:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.05.26-05.12.03:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.05.26-05.12.03:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.05.26-05.12.03:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.05.26-05.12.03:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.05.26-05.12.03:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.05.26-05.12.03:170][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.05.26-05.12.03:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.05.26-05.12.03:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.05.26-05.12.03:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.05.26-05.12.03:210][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.05.26-05.12.03:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.05.26-05.12.03:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.05.26-05.12.03:237][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.05.26-05.12.03:246][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.05.26-05.12.03:254][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.05.26-05.12.03:281][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.05.26-05.12.03:281][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.05.26-05.12.03:296][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.05.26-05.12.03:296][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.05.26-05.12.03:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.05.26-05.12.03:315][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.05.26-05.12.03:324][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.05.26-05.12.03:332][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.05.26-05.12.03:332][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.05.26-05.12.03:338][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.05.26-05.12.03:388][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Intermediate/Shaders/WorkingDirectory/23500/).
+[2021.05.26-05.12.03:388][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sotaro fukumoto/AppData/Local/Temp/UnrealShaderWorkingDir/057FD0324B45070AA021E09427815CA9/'.
+[2021.05.26-05.12.03:388][  0]LogXGEController: Cleaning working directory: C:/Users/sotaro fukumoto/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.05.26-05.12.03:389][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.05.26-05.12.03:389][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.05.26-05.12.03:389][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.05.26-05.12.03:976][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.05.26-05.12.04:018][  0]LogDerivedDataCache: Loaded boot cache 0.04s 80MB C:/Users/sotaro fukumoto/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.05.26-05.12.04:018][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/sotaro fukumoto/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.05.26-05.12.04:018][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.05.26-05.12.04:018][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.05.26-05.12.04:018][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.26-05.12.04:018][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.05.26-05.12.04:026][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.05.26-05.12.04:026][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.26-05.12.04:026][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.05.26-05.12.04:027][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sotaro fukumoto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.05.26-05.12.04:027][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.05.26-05.12.04:027][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.05.26-05.12.04:067][  0]LogSlate: Using FreeType 2.10.0
+[2021.05.26-05.12.04:067][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.05.26-05.12.04:089][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2021.05.26-05.12.04:224][  0]LogCollisionProfile: Warning: Profile (NoCollision) - Custom Channel Name = 'GameTraceChannel3' hasn't been found
+[2021.05.26-05.12.04:259][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.26-05.12.04:347][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.05.26-05.12.04:347][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.05.26-05.12.04:347][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.05.26-05.12.04:347][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.05.26-05.12.04:347][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.05.26-05.12.04:358][  0]LogNetVersion: VRActionProject 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1680460826)
+[2021.05.26-05.12.04:696][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000020BE37F6180), frame # 0
+[2021.05.26-05.12.04:696][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020BE95A11C0), frame # 0
+[2021.05.26-05.12.04:697][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020BE95AB000), frame # 0
+[2021.05.26-05.12.04:746][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.044511 seconds
+[2021.05.26-05.12.04:750][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.05.26-05.12.04:750][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.05.26-05.12.04:750][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.05.26-05.12.05:022][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.05.26-05.12.05:026][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.05.26-05.12.05:075][  0]LogLinker: Warning:  '/Game/FirstPersonBP/FirstPersonOverview' のロードに失敗しました: ファイルが見つかりません
+[2021.05.26-05.12.05:075][  0]LogLinker: Warning:  '/Game/FirstPersonBP/FirstPersonOverview' のロードに失敗しました: ファイルが見つかりません
+[2021.05.26-05.12.05:075][  0]LogUObjectGlobals: Warning: オブジェクト 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C' が見つかりませんでした
+[2021.05.26-05.12.05:104][  0]SourceControl: ソースコントロールは無効です
+[2021.05.26-05.12.05:104][  0]SourceControl: ソースコントロールは無効です
+[2021.05.26-05.12.05:107][  0]SourceControl: ソースコントロールは無効です
+[2021.05.26-05.12.05:109][  0]SourceControl: ソースコントロールは無効です
+[2021.05.26-05.12.05:115][  0]SourceControl: ソースコントロールは無効です
+[2021.05.26-05.12.05:314][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.05.26-05.12.05:332][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.26-05.12.05:332][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.26-05.12.05:372][  0]LogOcInput: OculusInput pre-init called
+[2021.05.26-05.12.05:582][  0]LogEngine: Initializing Engine...
+[2021.05.26-05.12.05:583][  0]LogHMD: Oculus plugin initialized. Version: 4.25.4-14469661+++UE4+Release-4.25, OVRPlugin: 1.44.0
+[2021.05.26-05.12.05:583][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.05.26-05.12.05:671][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.05.26-05.12.05:677][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.05.26-05.12.05:677][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020BEAE1FC00), frame # 0
+[2021.05.26-05.12.05:677][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020BEAE4F240), frame # 0
+[2021.05.26-05.12.05:691][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.26-05.12.05:691][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.26-05.12.05:691][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.26-05.12.05:691][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.26-05.12.05:692][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.26-05.12.05:692][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.26-05.12.05:692][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.26-05.12.05:692][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.26-05.12.05:692][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.26-05.12.05:692][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.26-05.12.05:703][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-05.12.05:703][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-05.12.05:727][  0]LogAudioMixer: Display: Using Audio Device スピーカー (Bose Mini SoundLink Stereo)
+[2021.05.26-05.12.05:729][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.26-05.12.05:730][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.26-05.12.05:731][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.26-05.12.05:731][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.26-05.12.05:732][  0]LogInit: FAudioDevice initialized.
+[2021.05.26-05.12.05:732][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.05.26-05.12.05:781][  0]LogDerivedDataCache: Saved boot cache 0.05s 80MB C:/Users/sotaro fukumoto/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.05.26-05.12.05:782][  0]LogInit: Texture streaming: Enabled
+[2021.05.26-05.12.05:795][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.05.26-05.12.05:795][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.05.26-05.12.05:801][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.05.26-05.12.05:854][  0]LogInit: Transaction tracking system initialized
+[2021.05.26-05.12.05:870][  0]BlueprintLog: New page: エディタの読み込み
+[2021.05.26-05.12.05:923][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2021.05.26-05.12.06:039][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.05.26-05.12.06:039][  0]LogCook: Display: Mobile HDR setting 1
+[2021.05.26-05.12.06:136][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/' took 0.01s
+[2021.05.26-05.12.06:299][  0]SourceControl: ソースコントロールは無効です
+[2021.05.26-05.12.06:300][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.234
+[2021.05.26-05.12.06:300][  0]Cmd: MAP LOAD FILE="../../../../../../Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/VRWireContents/Levels/VRPracticeMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.26-05.12.06:300][  0]LightingResults: New page: ライティングのビルド
+[2021.05.26-05.12.06:300][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-05.12.06:301][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-05.12.06:301][  0]MapCheck: New page: マップをチェック
+[2021.05.26-05.12.06:301][  0]LightingResults: New page: <何も選択されていません>
+[2021.05.26-05.12.06:309][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020BEAE1FC00), frame # 0
+[2021.05.26-05.12.06:309][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020BEAE4F240), frame # 0
+[2021.05.26-05.12.06:310][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.05.26-05.12.07:286][  0]LogAIModule: Creating AISystem for world VRPracticeMap
+[2021.05.26-05.12.07:286][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020BD7D4BE00), frame # 0
+[2021.05.26-05.12.07:286][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020BD3FE3D80), frame # 0
+[2021.05.26-05.12.07:293][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.26-05.12.07:308][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2021.05.26-05.12.07:308][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.26-05.12.07:308][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.15ミリ秒かかりました。
+[2021.05.26-05.12.07:308][  0]LogFileHelpers: Loading map 'VRPracticeMap' took 1.009
+[2021.05.26-05.12.07:310][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.244
+[2021.05.26-05.12.07:392][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2021.05.26-05.12.07:454][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-05.12.07:460][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-05.12.07:465][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-05.12.07:469][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-05.12.07:476][  0]LogCollectionManager: Loaded 0 collections in 0.001474 seconds
+[2021.05.26-05.12.07:487][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Saved/Collections/' took 0.00s
+[2021.05.26-05.12.07:487][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/Developers/sotarofukumoto/Collections/' took 0.00s
+[2021.05.26-05.12.07:487][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sotaro fukumoto/Documents/GitHub/VRwire/Content/Collections/' took 0.00s
+[2021.05.26-05.12.07:487][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 3436 classes and 826 folders.
+[2021.05.26-05.12.07:489][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.05.26-05.12.07:535][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.05.26-05.12.07:542][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2021.05.26-05.12.07:624][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.05.26-05.12.07:624][  0]LogLoad: (Engine Initialization) Total time: 6.56 seconds
+[2021.05.26-05.12.07:624][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.05.26-05.12.07:639][  0]LogOcInput: OculusInput is initialized
+[2021.05.26-05.12.07:662][  0]LogAssetRegistry: Asset discovery search completed in 3.5729 seconds
+[2021.05.26-05.12.07:665][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.05.26-05.12.07:666][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.05.26-05.12.07:672][  0]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.05.26-05.12.07:673][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Regular.otf' (707K)
+[2021.05.26-05.12.07:673][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Bold.otf' (698K)
+[2021.05.26-05.12.07:673][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-SemiBold.otf' (703K)
+[2021.05.26-05.12.07:673][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Heavy.otf' (704K)
+[2021.05.26-05.12.07:674][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Light.otf' (713K)
+[2021.05.26-05.12.07:675][  0]LogSlate: Took 0.001084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.05.26-05.12.07:676][  0]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.05.26-05.12.07:677][  0]LogSlate: Took 0.000092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.05.26-05.12.07:716][  0]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.26-05.12.07:733][  1]LogRenderer: Reallocating scene render targets to support 1032x356 Format 26 NumSamples 1 (Frame:1).
+[2021.05.26-05.12.10:650][304]LogTemp: Repeating last play command: VR プレビュー
+[2021.05.26-05.12.10:666][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.26-05.12.10:666][304]LogHMD: Initializing OVRPlugin session
+[2021.05.26-05.12.10:815][304]LogHMD: Allocating Oculus 3008 x 1616 rendertarget swapchain
+[2021.05.26-05.12.10:819][304]PIE: New page: PIEセッション: VRPracticeMap (2021/05/26 23:12:10)
+[2021.05.26-05.12.10:820][304]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.05.26-05.12.10:821][304]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.05.26-05.12.10:822][304]LogPlayLevel: Creating play world package: /Game/VRWireContents/Levels/UEDPIE_0_VRPracticeMap
+[2021.05.26-05.12.10:826][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004522s)
+[2021.05.26-05.12.10:827][304]LogAIModule: Creating AISystem for world VRPracticeMap
+[2021.05.26-05.12.10:827][304]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020B84092600), frame # 304
+[2021.05.26-05.12.10:827][304]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020BD40DE200), frame # 304
+[2021.05.26-05.12.10:827][304]LogPlayLevel: PIE: World Init took: (0.001111s)
+[2021.05.26-05.12.10:827][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRWireContents/Levels/VRPracticeMap.VRPracticeMap to /Game/VRWireContents/Levels/UEDPIE_0_VRPracticeMap.VRPracticeMap (0.005768s)
+[2021.05.26-05.12.10:835][304]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.05.26-05.12.10:837][304]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.26-05.12.10:837][304]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.26-05.12.10:837][304]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.26-05.12.10:837][304]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.26-05.12.10:837][304]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.26-05.12.10:837][304]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.26-05.12.10:837][304]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.26-05.12.10:837][304]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.26-05.12.10:837][304]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.26-05.12.10:837][304]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.26-05.12.10:840][304]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-05.12.10:840][304]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-05.12.10:841][304]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-05.12.10:841][304]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-05.12.10:842][304]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-05.12.10:842][304]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-05.12.10:843][304]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-05.12.10:843][304]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-05.12.10:844][304]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-05.12.10:844][304]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-05.12.10:858][304]LogAudioMixer: Display: Using Audio Device ヘッドホン (2- Rift S)
+[2021.05.26-05.12.10:858][304]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.26-05.12.10:858][304]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.26-05.12.10:858][304]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.26-05.12.10:858][304]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.26-05.12.10:868][304]LogInit: FAudioDevice initialized.
+[2021.05.26-05.12.10:879][304]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-05.12.10:924][304]LogLoad: Game class is 'VRWireGameMode_C'
+[2021.05.26-05.12.10:926][304]LogWorld: Bringing World /Game/VRWireContents/Levels/UEDPIE_0_VRPracticeMap.VRPracticeMap up for play (max tick rate 0) at 2021.05.26-14.12.10
+[2021.05.26-05.12.10:929][304]LogWorld: Bringing up level for play took: 0.003828
+[2021.05.26-05.12.10:929][304]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.05.26-05.12.10:933][304]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.05.26-05.12.10:941][304]PIE: サーバーにログインしました
+[2021.05.26-05.12.10:942][304]PIE: PIE合計開始時間 0.278 秒。
+[2021.05.26-05.12.10:943][304]LogEngine: Changing dynamic resolution state.
+[2021.05.26-05.12.10:945][304]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.10:947][304]LogBlueprintUserMessages: [Grenade_BTTask_C_1] pon
+[2021.05.26-05.12.10:952][304]LogBlueprintUserMessages: [WeightWiget] updated
+[2021.05.26-05.12.10:967][304]LogRenderer: Warning: Resizing VR buffer to 3008 by 1616
+[2021.05.26-05.12.10:967][304]LogRenderer: Reallocating scene render targets to support 3008x1616 Format 26 NumSamples 1 (Frame:1).
+[2021.05.26-05.12.10:967][304]LogHMD: Allocating Oculus 3008 x 1616 depth rendertarget swapchain
+[2021.05.26-05.12.10:989][305]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.05.26-05.12.10:989][305]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.10:996][306]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:010][307]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:020][308]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:030][309]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:040][310]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:058][311]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:067][312]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:081][313]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:091][314]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:101][315]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:110][316]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:119][317]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:128][318]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:138][319]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:148][320]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:157][321]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:166][322]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:176][323]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:185][324]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:194][325]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:203][326]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:213][327]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:222][328]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:232][329]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:241][330]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:250][331]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:259][332]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:269][333]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:278][334]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:287][335]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:296][336]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:305][337]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:314][338]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:324][339]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:333][340]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:342][341]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:351][342]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:363][343]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:372][344]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:381][345]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:390][346]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:399][347]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:409][348]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:418][349]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:427][350]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:436][351]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:446][352]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:455][353]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:466][354]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:475][355]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:485][356]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:495][357]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:505][358]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:514][359]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:523][360]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:534][361]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:543][362]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:553][363]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:563][364]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:572][365]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:581][366]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:590][367]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:599][368]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:608][369]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:617][370]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:626][371]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:635][372]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:644][373]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:653][374]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:662][375]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:671][376]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:680][377]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:688][378]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:697][379]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:707][380]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:716][381]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:725][382]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:734][383]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:743][384]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:752][385]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:761][386]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:770][387]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:779][388]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:790][389]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:799][390]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:808][391]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:818][392]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:827][393]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:836][394]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:846][395]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:855][396]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:866][397]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:875][398]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:884][399]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:894][400]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:904][401]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:914][402]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:924][403]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:934][404]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:945][405]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:954][406]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:964][407]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.11:974][408]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:011][409]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:023][410]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:033][411]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:043][412]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:052][413]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:064][414]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:074][415]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:084][416]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:095][417]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:105][418]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:115][419]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:124][420]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:134][421]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:143][422]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:153][423]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:162][424]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:172][425]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:182][426]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:192][427]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:201][428]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:210][429]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:220][430]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:231][431]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:240][432]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:250][433]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:259][434]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:269][435]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:278][436]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:288][437]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:298][438]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:307][439]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:316][440]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:326][441]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:335][442]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:344][443]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:354][444]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:364][445]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:374][446]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:383][447]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:392][448]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:401][449]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:410][450]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:419][451]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:428][452]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:438][453]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:446][454]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:455][455]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:464][456]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:473][457]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:483][458]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:493][459]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:502][460]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:511][461]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:520][462]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:529][463]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:538][464]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:547][465]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:556][466]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:566][467]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:575][468]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:584][469]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:593][470]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:602][471]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:611][472]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:620][473]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:628][474]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:637][475]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:646][476]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:655][477]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:665][478]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:674][479]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:684][480]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:694][481]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:704][482]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:713][483]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:724][484]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:736][485]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:747][486]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:759][487]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:770][488]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:780][489]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:790][490]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:800][491]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:810][492]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:819][493]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:828][494]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:838][495]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:848][496]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:857][497]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:867][498]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:876][499]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:886][500]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:895][501]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:904][502]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:914][503]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:924][504]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:934][505]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:945][506]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:955][507]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:965][508]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:975][509]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:985][510]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.12:995][511]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:003][512]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:013][513]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:025][514]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:035][515]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:044][516]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:054][517]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:064][518]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:073][519]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:084][520]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:093][521]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:103][522]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:112][523]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:122][524]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:131][525]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:140][526]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:150][527]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:160][528]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:169][529]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:178][530]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:188][531]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:198][532]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:208][533]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:218][534]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:228][535]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:237][536]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:246][537]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:256][538]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:266][539]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:276][540]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:286][541]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:296][542]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:306][543]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:316][544]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:325][545]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:334][546]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:344][547]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:353][548]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:363][549]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:372][550]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:381][551]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:390][552]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:399][553]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:408][554]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:418][555]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:427][556]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:436][557]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:445][558]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:454][559]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:463][560]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:472][561]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:482][562]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:495][563]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:504][564]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:513][565]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:522][566]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:531][567]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:540][568]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:549][569]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:558][570]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:567][571]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:576][572]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:585][573]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:594][574]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:603][575]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:611][576]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:620][577]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:629][578]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:637][579]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:647][580]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:655][581]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:665][582]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:675][583]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:685][584]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:695][585]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:705][586]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:714][587]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:724][588]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:735][589]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:745][590]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:754][591]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:764][592]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:775][593]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:785][594]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:795][595]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:804][596]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:813][597]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:823][598]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:834][599]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:844][600]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:855][601]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:865][602]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:875][603]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:884][604]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:894][605]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:904][606]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:914][607]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:924][608]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:934][609]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:944][610]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:955][611]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:965][612]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:974][613]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:984][614]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.13:994][615]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.14:004][616]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.14:015][617]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.14:027][618]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.14:036][619]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.14:046][620]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.14:056][621]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.14:066][622]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.14:076][623]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.14:087][624]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.14:096][625]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.14:106][626]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.14:117][627]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.003061
+[2021.05.26-05.12.14:127][628]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.002335
+[2021.05.26-05.12.14:136][629]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.00386
+[2021.05.26-05.12.14:147][630]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.003032
+[2021.05.26-05.12.14:155][631]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.000931
+[2021.05.26-05.12.14:164][632]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.001297
+[2021.05.26-05.12.14:172][633]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.001263
+[2021.05.26-05.12.14:183][634]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.001545
+[2021.05.26-05.12.14:191][635]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.001534
+[2021.05.26-05.12.14:201][636]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.002159
+[2021.05.26-05.12.14:209][637]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.002444
+[2021.05.26-05.12.14:219][638]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -1.050391
+[2021.05.26-05.12.14:228][639]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -2.647264
+[2021.05.26-05.12.14:239][640]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -20.897663
+[2021.05.26-05.12.14:249][641]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -37.458656
+[2021.05.26-05.12.14:258][642]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -47.396137
+[2021.05.26-05.12.14:268][643]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -54.837215
+[2021.05.26-05.12.14:277][644]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -60.02742
+[2021.05.26-05.12.14:288][645]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -68.311539
+[2021.05.26-05.12.14:298][646]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -74.450005
+[2021.05.26-05.12.14:308][647]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -78.349533
+[2021.05.26-05.12.14:318][648]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -81.266502
+[2021.05.26-05.12.14:328][649]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -83.33075
+[2021.05.26-05.12.14:339][650]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -84.850891
+[2021.05.26-05.12.14:348][651]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -86.173965
+[2021.05.26-05.12.14:358][652]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -87.064804
+[2021.05.26-05.12.14:369][653]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -87.794266
+[2021.05.26-05.12.14:379][654]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -88.431519
+[2021.05.26-05.12.14:389][655]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -88.845619
+[2021.05.26-05.12.14:399][656]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -89.217827
+[2021.05.26-05.12.14:409][657]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -89.494469
+[2021.05.26-05.12.14:420][658]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -89.807144
+[2021.05.26-05.12.14:430][659]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.022934
+[2021.05.26-05.12.14:441][660]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.217743
+[2021.05.26-05.12.14:450][661]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.352791
+[2021.05.26-05.12.14:460][662]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.471657
+[2021.05.26-05.12.14:470][663]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.547928
+[2021.05.26-05.12.14:480][664]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.612442
+[2021.05.26-05.12.14:490][665]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.64167
+[2021.05.26-05.12.14:501][666]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.664108
+[2021.05.26-05.12.14:511][667]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.679794
+[2021.05.26-05.12.14:522][668]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.712906
+[2021.05.26-05.12.14:532][669]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.719872
+[2021.05.26-05.12.14:542][670]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.721649
+[2021.05.26-05.12.14:552][671]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.736526
+[2021.05.26-05.12.14:563][672]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.757355
+[2021.05.26-05.12.14:573][673]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.745094
+[2021.05.26-05.12.14:583][674]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.734634
+[2021.05.26-05.12.14:593][675]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.753517
+[2021.05.26-05.12.14:604][676]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.715576
+[2021.05.26-05.12.14:614][677]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.666298
+[2021.05.26-05.12.14:624][678]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.612228
+[2021.05.26-05.12.14:634][679]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.575897
+[2021.05.26-05.12.14:644][680]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.552841
+[2021.05.26-05.12.14:654][681]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.532646
+[2021.05.26-05.12.14:664][682]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.539429
+[2021.05.26-05.12.14:674][683]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.578995
+[2021.05.26-05.12.14:684][684]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.601616
+[2021.05.26-05.12.14:694][685]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.648399
+[2021.05.26-05.12.14:704][686]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.676071
+[2021.05.26-05.12.14:714][687]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.72834
+[2021.05.26-05.12.14:724][688]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.754341
+[2021.05.26-05.12.14:735][689]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.738075
+[2021.05.26-05.12.14:744][690]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.787811
+[2021.05.26-05.12.14:754][691]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.73687
+[2021.05.26-05.12.14:764][692]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.720207
+[2021.05.26-05.12.14:775][693]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.64621
+[2021.05.26-05.12.14:786][694]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.595787
+[2021.05.26-05.12.14:796][695]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.55735
+[2021.05.26-05.12.14:806][696]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.563889
+[2021.05.26-05.12.14:816][697]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.530113
+[2021.05.26-05.12.14:826][698]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.540375
+[2021.05.26-05.12.14:836][699]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.542656
+[2021.05.26-05.12.14:847][700]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.548874
+[2021.05.26-05.12.14:856][701]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.552177
+[2021.05.26-05.12.14:866][702]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.554565
+[2021.05.26-05.12.14:876][703]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.526649
+[2021.05.26-05.12.14:887][704]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.524925
+[2021.05.26-05.12.14:897][705]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.497856
+[2021.05.26-05.12.14:907][706]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.476402
+[2021.05.26-05.12.14:918][707]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.486588
+[2021.05.26-05.12.14:928][708]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.496437
+[2021.05.26-05.12.14:938][709]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.548927
+[2021.05.26-05.12.14:949][710]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.552498
+[2021.05.26-05.12.14:959][711]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.573944
+[2021.05.26-05.12.14:970][712]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.605049
+[2021.05.26-05.12.14:981][713]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.633484
+[2021.05.26-05.12.14:991][714]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.619446
+[2021.05.26-05.12.15:002][715]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.696075
+[2021.05.26-05.12.15:012][716]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.79789
+[2021.05.26-05.12.15:023][717]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.924156
+[2021.05.26-05.12.15:035][718]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.994049
+[2021.05.26-05.12.15:046][719]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -91.120499
+[2021.05.26-05.12.15:057][720]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -92.176163
+[2021.05.26-05.12.15:067][721]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -93.148102
+[2021.05.26-05.12.15:078][722]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -93.961128
+[2021.05.26-05.12.15:088][723]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -94.790863
+[2021.05.26-05.12.15:099][724]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.441612
+[2021.05.26-05.12.15:108][725]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.039337
+[2021.05.26-05.12.15:118][726]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.562363
+[2021.05.26-05.12.15:129][727]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -97.038643
+[2021.05.26-05.12.15:140][728]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -97.468597
+[2021.05.26-05.12.15:150][729]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -97.808807
+[2021.05.26-05.12.15:160][730]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -98.134239
+[2021.05.26-05.12.15:171][731]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -98.325226
+[2021.05.26-05.12.15:180][732]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -98.407944
+[2021.05.26-05.12.15:190][733]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -98.472389
+[2021.05.26-05.12.15:200][734]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -98.484726
+[2021.05.26-05.12.15:210][735]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -98.395988
+[2021.05.26-05.12.15:220][736]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -98.304207
+[2021.05.26-05.12.15:230][737]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -98.126457
+[2021.05.26-05.12.15:241][738]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -97.893539
+[2021.05.26-05.12.15:252][739]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -99.121155
+[2021.05.26-05.12.15:263][740]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -100.738899
+[2021.05.26-05.12.15:273][741]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -102.131607
+[2021.05.26-05.12.15:284][742]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -108.076706
+[2021.05.26-05.12.15:294][743]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -126.94561
+[2021.05.26-05.12.15:304][744]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 167.035004
+[2021.05.26-05.12.15:314][745]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 120.57196
+[2021.05.26-05.12.15:325][746]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 107.807137
+[2021.05.26-05.12.15:335][747]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 102.292465
+[2021.05.26-05.12.15:345][748]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 99.677071
+[2021.05.26-05.12.15:355][749]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 98.003876
+[2021.05.26-05.12.15:365][750]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 96.916519
+[2021.05.26-05.12.15:376][751]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 95.343666
+[2021.05.26-05.12.15:385][752]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 94.125473
+[2021.05.26-05.12.15:394][753]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 93.449585
+[2021.05.26-05.12.15:404][754]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 92.954193
+[2021.05.26-05.12.15:414][755]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 92.527672
+[2021.05.26-05.12.15:424][756]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 92.169304
+[2021.05.26-05.12.15:434][757]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 91.887955
+[2021.05.26-05.12.15:443][758]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 91.658005
+[2021.05.26-05.12.15:453][759]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 91.450752
+[2021.05.26-05.12.15:463][760]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 91.269432
+[2021.05.26-05.12.15:472][761]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 91.129906
+[2021.05.26-05.12.15:481][762]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 91.012138
+[2021.05.26-05.12.15:491][763]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.894913
+[2021.05.26-05.12.15:501][764]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.790482
+[2021.05.26-05.12.15:510][765]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.703354
+[2021.05.26-05.12.15:520][766]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.627563
+[2021.05.26-05.12.15:529][767]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.559326
+[2021.05.26-05.12.15:539][768]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.502655
+[2021.05.26-05.12.15:548][769]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.449905
+[2021.05.26-05.12.15:559][770]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.402832
+[2021.05.26-05.12.15:567][771]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.35627
+[2021.05.26-05.12.15:576][772]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.320175
+[2021.05.26-05.12.15:586][773]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.287849
+[2021.05.26-05.12.15:595][774]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.257637
+[2021.05.26-05.12.15:605][775]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.23037
+[2021.05.26-05.12.15:614][776]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.205452
+[2021.05.26-05.12.15:624][777]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.184776
+[2021.05.26-05.12.15:634][778]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.164467
+[2021.05.26-05.12.15:643][779]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.146828
+[2021.05.26-05.12.15:653][780]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.131126
+[2021.05.26-05.12.15:662][781]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.117096
+[2021.05.26-05.12.15:678][782]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.105171
+[2021.05.26-05.12.15:689][783]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.115967
+[2021.05.26-05.12.15:699][784]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.128014
+[2021.05.26-05.12.15:709][785]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.138756
+[2021.05.26-05.12.15:720][786]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.138481
+[2021.05.26-05.12.15:730][787]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.162872
+[2021.05.26-05.12.15:740][788]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.17215
+[2021.05.26-05.12.15:751][789]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.183769
+[2021.05.26-05.12.15:760][790]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.190033
+[2021.05.26-05.12.15:771][791]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.206627
+[2021.05.26-05.12.15:781][792]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.228172
+[2021.05.26-05.12.15:791][793]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.245621
+[2021.05.26-05.12.15:801][794]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.249611
+[2021.05.26-05.12.15:811][795]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.25769
+[2021.05.26-05.12.15:821][796]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.24691
+[2021.05.26-05.12.15:831][797]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.251183
+[2021.05.26-05.12.15:842][798]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.289207
+[2021.05.26-05.12.15:853][799]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.324471
+[2021.05.26-05.12.15:864][800]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.398567
+[2021.05.26-05.12.15:875][801]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.459183
+[2021.05.26-05.12.15:885][802]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.530205
+[2021.05.26-05.12.15:895][803]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.602097
+[2021.05.26-05.12.15:905][804]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.671242
+[2021.05.26-05.12.15:915][805]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.716125
+[2021.05.26-05.12.15:925][806]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.761742
+[2021.05.26-05.12.15:936][807]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.831528
+[2021.05.26-05.12.15:946][808]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.889511
+[2021.05.26-05.12.15:956][809]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 90.948441
+[2021.05.26-05.12.15:967][810]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.15:977][811]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.15:987][812]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.15:996][813]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.16:006][814]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.16:016][815]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.16:017][815]LogBlueprintUserMessages: [Grenade_BTTask_C_1] pon
+[2021.05.26-05.12.16:026][816]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.16:039][817]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.16:049][818]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.16:058][819]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.16:068][820]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.16:078][821]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.16:087][822]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.16:096][823]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.16:106][824]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -89.999718
+[2021.05.26-05.12.16:115][825]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -89.999466
+[2021.05.26-05.12.16:124][826]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -89.999626
+[2021.05.26-05.12.16:134][827]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -89.999748
+[2021.05.26-05.12.16:143][828]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -89.999908
+[2021.05.26-05.12.16:154][829]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.000046
+[2021.05.26-05.12.16:163][830]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.000015
+[2021.05.26-05.12.16:172][831]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -89.999939
+[2021.05.26-05.12.16:181][832]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.000038
+[2021.05.26-05.12.16:191][833]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.000061
+[2021.05.26-05.12.16:201][834]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.000175
+[2021.05.26-05.12.16:210][835]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -90.737495
+[2021.05.26-05.12.16:220][836]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -91.431778
+[2021.05.26-05.12.16:229][837]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -91.961235
+[2021.05.26-05.12.16:238][838]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -92.452957
+[2021.05.26-05.12.16:247][839]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -92.857704
+[2021.05.26-05.12.16:256][840]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -93.231514
+[2021.05.26-05.12.16:266][841]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -93.585243
+[2021.05.26-05.12.16:276][842]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -93.904663
+[2021.05.26-05.12.16:284][843]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -94.174438
+[2021.05.26-05.12.16:294][844]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -94.410332
+[2021.05.26-05.12.16:304][845]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -94.641624
+[2021.05.26-05.12.16:313][846]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -94.838837
+[2021.05.26-05.12.16:323][847]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.011566
+[2021.05.26-05.12.16:332][848]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.163254
+[2021.05.26-05.12.16:341][849]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.301994
+[2021.05.26-05.12.16:351][850]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.417671
+[2021.05.26-05.12.16:360][851]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.527237
+[2021.05.26-05.12.16:370][852]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.633514
+[2021.05.26-05.12.16:379][853]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.718559
+[2021.05.26-05.12.16:389][854]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.796616
+[2021.05.26-05.12.16:398][855]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.867905
+[2021.05.26-05.12.16:408][856]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.925804
+[2021.05.26-05.12.16:416][857]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.980881
+[2021.05.26-05.12.16:426][858]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.030312
+[2021.05.26-05.12.16:437][859]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.077805
+[2021.05.26-05.12.16:446][860]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.119865
+[2021.05.26-05.12.16:455][861]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.156364
+[2021.05.26-05.12.16:465][862]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.188652
+[2021.05.26-05.12.16:474][863]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.219627
+[2021.05.26-05.12.16:483][864]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.246056
+[2021.05.26-05.12.16:492][865]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.269608
+[2021.05.26-05.12.16:502][866]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.291901
+[2021.05.26-05.12.16:511][867]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.310387
+[2021.05.26-05.12.16:521][868]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.327942
+[2021.05.26-05.12.16:531][869]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.34359
+[2021.05.26-05.12.16:540][870]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.357864
+[2021.05.26-05.12.16:550][871]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.487305
+[2021.05.26-05.12.16:560][872]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.525887
+[2021.05.26-05.12.16:570][873]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.560158
+[2021.05.26-05.12.16:580][874]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.631752
+[2021.05.26-05.12.16:590][875]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.694893
+[2021.05.26-05.12.16:600][876]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.711533
+[2021.05.26-05.12.16:610][877]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.685257
+[2021.05.26-05.12.16:620][878]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.702782
+[2021.05.26-05.12.16:630][879]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.717987
+[2021.05.26-05.12.16:640][880]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.732468
+[2021.05.26-05.12.16:650][881]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.704285
+[2021.05.26-05.12.16:661][882]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.720253
+[2021.05.26-05.12.16:671][883]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.731316
+[2021.05.26-05.12.16:681][884]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.742447
+[2021.05.26-05.12.16:691][885]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.754845
+[2021.05.26-05.12.16:702][886]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.764641
+[2021.05.26-05.12.16:712][887]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.770447
+[2021.05.26-05.12.16:722][888]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.778381
+[2021.05.26-05.12.16:731][889]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.745773
+[2021.05.26-05.12.16:741][890]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.717941
+[2021.05.26-05.12.16:752][891]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.691559
+[2021.05.26-05.12.16:762][892]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.665771
+[2021.05.26-05.12.16:772][893]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.645531
+[2021.05.26-05.12.16:782][894]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.626724
+[2021.05.26-05.12.16:791][895]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.610435
+[2021.05.26-05.12.16:801][896]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.637558
+[2021.05.26-05.12.16:811][897]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.619431
+[2021.05.26-05.12.16:821][898]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.644371
+[2021.05.26-05.12.16:831][899]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.625465
+[2021.05.26-05.12.16:841][900]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.609924
+[2021.05.26-05.12.16:851][901]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.595642
+[2021.05.26-05.12.16:860][902]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.583221
+[2021.05.26-05.12.16:871][903]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.571617
+[2021.05.26-05.12.16:880][904]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.561218
+[2021.05.26-05.12.16:891][905]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.592682
+[2021.05.26-05.12.16:901][906]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.759605
+[2021.05.26-05.12.16:911][907]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -97.13324
+[2021.05.26-05.12.16:923][908]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -97.374725
+[2021.05.26-05.12.16:934][909]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -97.677567
+[2021.05.26-05.12.16:944][910]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -98.05471
+[2021.05.26-05.12.16:955][911]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -98.314613
+[2021.05.26-05.12.16:965][912]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -98.585312
+[2021.05.26-05.12.16:975][913]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -98.766518
+[2021.05.26-05.12.16:987][914]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -98.703278
+[2021.05.26-05.12.16:997][915]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -98.610802
+[2021.05.26-05.12.17:007][916]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -98.369614
+[2021.05.26-05.12.17:018][917]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -97.953896
+[2021.05.26-05.12.17:028][918]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -97.441917
+[2021.05.26-05.12.17:040][919]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -97.008812
+[2021.05.26-05.12.17:051][920]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.462601
+[2021.05.26-05.12.17:060][921]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.068626
+[2021.05.26-05.12.17:071][922]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.760017
+[2021.05.26-05.12.17:082][923]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.569298
+[2021.05.26-05.12.17:092][924]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.437157
+[2021.05.26-05.12.17:103][925]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.458786
+[2021.05.26-05.12.17:114][926]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.487617
+[2021.05.26-05.12.17:126][927]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.649513
+[2021.05.26-05.12.17:137][928]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.901855
+[2021.05.26-05.12.17:148][929]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.208954
+[2021.05.26-05.12.17:157][930]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.437157
+[2021.05.26-05.12.17:168][931]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.746567
+[2021.05.26-05.12.17:179][932]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.88588
+[2021.05.26-05.12.17:189][933]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -97.021866
+[2021.05.26-05.12.17:201][934]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.958786
+[2021.05.26-05.12.17:211][935]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.954849
+[2021.05.26-05.12.17:222][936]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -96.846809
+[2021.05.26-05.12.17:233][937]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -95.623528
+[2021.05.26-05.12.17:243][938]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -94.684219
+[2021.05.26-05.12.17:254][939]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -94.510155
+[2021.05.26-05.12.17:264][940]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -94.36087
+[2021.05.26-05.12.17:274][941]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -94.260872
+[2021.05.26-05.12.17:284][942]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -94.195419
+[2021.05.26-05.12.17:294][943]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -94.129944
+[2021.05.26-05.12.17:304][944]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -94.097649
+[2021.05.26-05.12.17:314][945]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -94.097778
+[2021.05.26-05.12.17:324][946]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -94.097801
+[2021.05.26-05.12.17:334][947]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -93.937759
+[2021.05.26-05.12.17:344][948]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -93.769127
+[2021.05.26-05.12.17:355][949]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -93.596481
+[2021.05.26-05.12.17:365][950]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -93.310234
+[2021.05.26-05.12.17:376][951]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:386][952]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:396][953]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:407][954]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:416][955]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:426][956]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:436][957]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:446][958]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:456][959]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:466][960]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:475][961]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:485][962]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:494][963]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:504][964]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:513][965]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:522][966]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:531][967]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:541][968]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:551][969]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:561][970]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:571][971]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:581][972]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:591][973]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:601][974]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:611][975]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:621][976]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:631][977]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:640][978]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:649][979]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:659][980]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:668][981]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:677][982]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:686][983]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:695][984]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:705][985]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:715][986]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:724][987]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:734][988]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:744][989]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:755][990]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:765][991]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:775][992]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:785][993]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:794][994]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:804][995]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:815][996]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:825][997]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:834][998]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:844][999]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:854][  0]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:864][  1]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:874][  2]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:884][  3]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:894][  4]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:904][  5]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:914][  6]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:924][  7]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:933][  8]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:942][  9]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:951][ 10]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:960][ 11]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:969][ 12]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:979][ 13]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:989][ 14]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.17:999][ 15]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:008][ 16]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:017][ 17]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:026][ 18]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:035][ 19]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:046][ 20]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:055][ 21]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:065][ 22]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:075][ 23]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:083][ 24]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:093][ 25]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:102][ 26]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:111][ 27]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:122][ 28]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:131][ 29]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:141][ 30]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:150][ 31]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:159][ 32]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:169][ 33]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:178][ 34]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:189][ 35]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:199][ 36]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:209][ 37]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:219][ 38]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:228][ 39]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:238][ 40]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:248][ 41]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:257][ 42]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:267][ 43]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:277][ 44]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:288][ 45]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:300][ 46]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:310][ 47]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:319][ 48]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:328][ 49]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:338][ 50]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:347][ 51]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:356][ 52]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:365][ 53]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:374][ 54]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:383][ 55]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:392][ 56]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:401][ 57]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:411][ 58]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:421][ 59]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:430][ 60]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:439][ 61]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:448][ 62]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:457][ 63]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:466][ 64]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:475][ 65]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:484][ 66]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:493][ 67]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:501][ 68]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:510][ 69]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:519][ 70]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:528][ 71]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:537][ 72]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:547][ 73]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:556][ 74]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:564][ 75]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:573][ 76]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:581][ 77]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:590][ 78]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:600][ 79]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:608][ 80]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:617][ 81]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:627][ 82]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:636][ 83]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:645][ 84]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:654][ 85]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:663][ 86]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:673][ 87]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:682][ 88]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:691][ 89]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:700][ 90]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:710][ 91]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:718][ 92]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:727][ 93]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:736][ 94]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:745][ 95]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:755][ 96]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:764][ 97]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:773][ 98]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:782][ 99]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:791][100]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:800][101]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:808][102]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:818][103]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:827][104]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:836][105]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:846][106]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:855][107]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:864][108]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.18:875][109]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 179.929749
+[2021.05.26-05.12.18:884][110]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -179.99205
+[2021.05.26-05.12.18:893][111]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -179.941559
+[2021.05.26-05.12.18:902][112]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -179.90274
+[2021.05.26-05.12.18:912][113]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -157.582916
+[2021.05.26-05.12.18:921][114]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -157.57431
+[2021.05.26-05.12.18:930][115]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -157.568344
+[2021.05.26-05.12.18:940][116]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -157.602066
+[2021.05.26-05.12.18:949][117]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -160.310837
+[2021.05.26-05.12.18:958][118]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -160.319
+[2021.05.26-05.12.18:967][119]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -160.304871
+[2021.05.26-05.12.18:977][120]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -144.564133
+[2021.05.26-05.12.18:987][121]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.768829
+[2021.05.26-05.12.18:996][122]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.808182
+[2021.05.26-05.12.19:005][123]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.776031
+[2021.05.26-05.12.19:014][124]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.809326
+[2021.05.26-05.12.19:023][125]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.770554
+[2021.05.26-05.12.19:033][126]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.790665
+[2021.05.26-05.12.19:042][127]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.784302
+[2021.05.26-05.12.19:053][128]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.825394
+[2021.05.26-05.12.19:062][129]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.849014
+[2021.05.26-05.12.19:071][130]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.818649
+[2021.05.26-05.12.19:080][131]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.841278
+[2021.05.26-05.12.19:090][132]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.816727
+[2021.05.26-05.12.19:099][133]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.788849
+[2021.05.26-05.12.19:109][134]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.827408
+[2021.05.26-05.12.19:118][135]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.817444
+[2021.05.26-05.12.19:127][136]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.811218
+[2021.05.26-05.12.19:136][137]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.837494
+[2021.05.26-05.12.19:145][138]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.870636
+[2021.05.26-05.12.19:155][139]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.938568
+[2021.05.26-05.12.19:164][140]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.938599
+[2021.05.26-05.12.19:174][141]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.922607
+[2021.05.26-05.12.19:183][142]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.94162
+[2021.05.26-05.12.19:192][143]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.95311
+[2021.05.26-05.12.19:202][144]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.933945
+[2021.05.26-05.12.19:211][145]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.989151
+[2021.05.26-05.12.19:220][146]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.994629
+[2021.05.26-05.12.19:229][147]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.974365
+[2021.05.26-05.12.19:238][148]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -148.032211
+[2021.05.26-05.12.19:248][149]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.988388
+[2021.05.26-05.12.19:258][150]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -140.068756
+[2021.05.26-05.12.19:269][151]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -145.20874
+[2021.05.26-05.12.19:278][152]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -149.28241
+[2021.05.26-05.12.19:289][153]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -144.457581
+[2021.05.26-05.12.19:298][154]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -149.700912
+[2021.05.26-05.12.19:308][155]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -149.176071
+[2021.05.26-05.12.19:318][156]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.434631
+[2021.05.26-05.12.19:328][157]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -148.568726
+[2021.05.26-05.12.19:338][158]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -151.819641
+[2021.05.26-05.12.19:348][159]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -151.324768
+[2021.05.26-05.12.19:358][160]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -154.439285
+[2021.05.26-05.12.19:369][161]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -153.818008
+[2021.05.26-05.12.19:379][162]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -152.916
+[2021.05.26-05.12.19:390][163]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:401][164]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:411][165]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:422][166]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:432][167]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:441][168]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:451][169]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:461][170]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:470][171]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:479][172]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:488][173]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:498][174]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:507][175]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:516][176]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:526][177]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:536][178]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:546][179]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:556][180]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:568][181]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:578][182]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:589][183]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:598][184]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:608][185]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:619][186]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:630][187]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:640][188]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:650][189]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:659][190]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:669][191]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:679][192]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:690][193]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:701][194]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:711][195]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:721][196]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:730][197]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:741][198]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:751][199]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:761][200]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:771][201]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:781][202]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:790][203]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:801][204]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:810][205]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:820][206]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:829][207]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:839][208]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:849][209]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:858][210]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:867][211]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:878][212]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:886][213]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:896][214]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:906][215]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:914][216]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:923][217]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:932][218]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:941][219]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:950][220]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:959][221]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:968][222]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.19:977][223]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 177.778
+[2021.05.26-05.12.19:987][224]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 177.778
+[2021.05.26-05.12.19:995][225]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 177.778
+[2021.05.26-05.12.20:004][226]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 177.778
+[2021.05.26-05.12.20:013][227]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 177.778
+[2021.05.26-05.12.20:021][228]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 177.778
+[2021.05.26-05.12.20:030][229]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 177.778
+[2021.05.26-05.12.20:040][230]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 179.854752
+[2021.05.26-05.12.20:049][231]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 179.854752
+[2021.05.26-05.12.20:060][232]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 179.854752
+[2021.05.26-05.12.20:070][233]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -178.073608
+[2021.05.26-05.12.20:079][234]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -178.073608
+[2021.05.26-05.12.20:088][235]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -178.073608
+[2021.05.26-05.12.20:097][236]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -176.011978
+[2021.05.26-05.12.20:107][237]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -176.092056
+[2021.05.26-05.12.20:117][238]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -174.072815
+[2021.05.26-05.12.20:125][239]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -174.07338
+[2021.05.26-05.12.20:134][240]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -172.0737
+[2021.05.26-05.12.20:143][241]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -172.202637
+[2021.05.26-05.12.20:152][242]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -172.202637
+[2021.05.26-05.12.20:162][243]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -170.251907
+[2021.05.26-05.12.20:171][244]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -170.252441
+[2021.05.26-05.12.20:180][245]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -170.252441
+[2021.05.26-05.12.20:189][246]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329269
+[2021.05.26-05.12.20:198][247]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329269
+[2021.05.26-05.12.20:207][248]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329269
+[2021.05.26-05.12.20:216][249]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329269
+[2021.05.26-05.12.20:225][250]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329269
+[2021.05.26-05.12.20:234][251]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329269
+[2021.05.26-05.12.20:245][252]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329269
+[2021.05.26-05.12.20:253][253]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329269
+[2021.05.26-05.12.20:262][254]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329269
+[2021.05.26-05.12.20:271][255]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329269
+[2021.05.26-05.12.20:280][256]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329269
+[2021.05.26-05.12.20:290][257]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329269
+[2021.05.26-05.12.20:299][258]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329269
+[2021.05.26-05.12.20:308][259]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329269
+[2021.05.26-05.12.20:317][260]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329269
+[2021.05.26-05.12.20:327][261]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329269
+[2021.05.26-05.12.20:336][262]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329269
+[2021.05.26-05.12.20:345][263]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329269
+[2021.05.26-05.12.20:354][264]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329269
+[2021.05.26-05.12.20:365][265]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.330383
+[2021.05.26-05.12.20:376][266]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.32988
+[2021.05.26-05.12.20:385][267]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.329498
+[2021.05.26-05.12.20:394][268]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.332153
+[2021.05.26-05.12.20:403][269]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.328217
+[2021.05.26-05.12.20:414][270]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -168.669403
+[2021.05.26-05.12.20:424][271]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -165.450806
+[2021.05.26-05.12.20:434][272]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -164.574188
+[2021.05.26-05.12.20:444][273]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -162.221176
+[2021.05.26-05.12.20:454][274]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -159.767303
+[2021.05.26-05.12.20:464][275]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -157.842224
+[2021.05.26-05.12.20:475][276]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -156.086029
+[2021.05.26-05.12.20:486][277]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -154.909683
+[2021.05.26-05.12.20:497][278]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -154.551285
+[2021.05.26-05.12.20:508][279]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:518][280]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:528][281]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:538][282]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:548][283]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:559][284]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:568][285]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:578][286]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:588][287]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:598][288]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:608][289]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:619][290]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:629][291]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:639][292]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:650][293]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:660][294]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:670][295]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:680][296]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:690][297]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:700][298]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:710][299]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:722][300]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:732][301]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:743][302]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:753][303]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:763][304]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:773][305]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:783][306]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:793][307]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:804][308]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:814][309]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.20:825][310]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -145.01265
+[2021.05.26-05.12.20:836][311]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -146.053314
+[2021.05.26-05.12.20:847][312]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -147.446335
+[2021.05.26-05.12.20:856][313]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -148.135818
+[2021.05.26-05.12.20:866][314]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -149.075027
+[2021.05.26-05.12.20:877][315]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -150.022934
+[2021.05.26-05.12.20:887][316]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -150.683197
+[2021.05.26-05.12.20:896][317]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -151.331299
+[2021.05.26-05.12.20:906][318]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -152.107071
+[2021.05.26-05.12.20:916][319]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -152.403625
+[2021.05.26-05.12.20:926][320]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -153.106995
+[2021.05.26-05.12.20:936][321]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -153.299591
+[2021.05.26-05.12.20:946][322]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -153.907074
+[2021.05.26-05.12.20:957][323]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -154.374146
+[2021.05.26-05.12.20:966][324]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -154.716751
+[2021.05.26-05.12.20:976][325]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -155.448761
+[2021.05.26-05.12.20:987][326]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -155.880096
+[2021.05.26-05.12.20:996][327]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -156.470657
+[2021.05.26-05.12.21:007][328]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -157.080093
+[2021.05.26-05.12.21:018][329]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -157.983551
+[2021.05.26-05.12.21:028][330]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -158.876328
+[2021.05.26-05.12.21:038][331]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -159.680588
+[2021.05.26-05.12.21:048][332]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -160.55928
+[2021.05.26-05.12.21:049][332]LogBlueprintUserMessages: [Grenade_BTTask_C_1] pon
+[2021.05.26-05.12.21:061][333]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -161.573196
+[2021.05.26-05.12.21:071][334]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -162.785904
+[2021.05.26-05.12.21:082][335]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -163.79895
+[2021.05.26-05.12.21:092][336]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -164.468033
+[2021.05.26-05.12.21:102][337]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -165.193542
+[2021.05.26-05.12.21:112][338]LogBlueprintUserMessages: [AnimBP_Joe_C_0] -166.036011
+[2021.05.26-05.12.21:122][339]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:132][340]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:143][341]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:153][342]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:162][343]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:172][344]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:182][345]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:193][346]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:203][347]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:213][348]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:224][349]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:234][350]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:244][351]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:255][352]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:265][353]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:275][354]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:287][355]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:297][356]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:307][357]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:318][358]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:328][359]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:338][360]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:348][361]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:359][362]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:370][363]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:381][364]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:391][365]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:402][366]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:413][367]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:422][368]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:433][369]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:443][370]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:453][371]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:464][372]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:474][373]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:484][374]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:494][375]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:503][376]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:513][377]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:523][378]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:533][379]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:544][380]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:553][381]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:564][382]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:574][383]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:584][384]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:594][385]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:605][386]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:615][387]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:626][388]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:635][389]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:644][390]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:653][391]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:662][392]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:671][393]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:680][394]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:689][395]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:698][396]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:707][397]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:716][398]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:726][399]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:736][400]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:746][401]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:755][402]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:765][403]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:775][404]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:784][405]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:794][406]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:803][407]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:813][408]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:822][409]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:832][410]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:842][411]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:852][412]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:861][413]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:870][414]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:880][415]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:889][416]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:898][417]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:908][418]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:917][419]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:926][420]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:935][421]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:944][422]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:953][423]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:962][424]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:970][425]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:979][426]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:988][427]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.21:997][428]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:007][429]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:015][430]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:025][431]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:034][432]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:044][433]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:053][434]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:064][435]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:074][436]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:084][437]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:094][438]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:104][439]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:113][440]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:122][441]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:130][442]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:139][443]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:148][444]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:158][445]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:167][446]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:177][447]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:186][448]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:195][449]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:204][450]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:213][451]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:222][452]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:232][453]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:242][454]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:252][455]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:261][456]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:271][457]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:280][458]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:289][459]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:298][460]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:308][461]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:317][462]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:326][463]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:335][464]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:345][465]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:355][466]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:365][467]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:375][468]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:384][469]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:394][470]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:403][471]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:412][472]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:422][473]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:431][474]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:440][475]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:449][476]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:459][477]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:467][478]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:476][479]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:485][480]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:494][481]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:503][482]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:512][483]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:521][484]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:530][485]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:540][486]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:548][487]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:557][488]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:566][489]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:575][490]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:584][491]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:593][492]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:603][493]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:611][494]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:621][495]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:629][496]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:638][497]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:647][498]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:656][499]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:665][500]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:674][501]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:683][502]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:692][503]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:701][504]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:711][505]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:720][506]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:729][507]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:738][508]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:747][509]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:756][510]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:765][511]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:774][512]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:783][513]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:792][514]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:832][515]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:842][516]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:850][517]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:859][518]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:868][519]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:878][520]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:886][521]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:895][522]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:904][523]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:913][524]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:922][525]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:932][526]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:942][527]LogBlueprintUserMessages: [AnimBP_Joe_C_0] 0.0
+[2021.05.26-05.12.22:987][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-05.12.22:987][527]LogWorld: BeginTearingDown for /Game/VRWireContents/Levels/UEDPIE_0_VRPracticeMap
+[2021.05.26-05.12.23:038][527]LogSlate: Window 'VRActionProject プレビュー [NetMode:Standalone] (64-ビット/Windows) OculusHMD' being destroyed
+[2021.05.26-05.12.23:078][527]LogWorld: UWorld::CleanupWorld for VRPracticeMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-05.12.23:078][527]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-05.12.23:087][527]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.26-05.12.23:092][527]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-05.12.23:115][527]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020BD40DE200), frame # 1527
+[2021.05.26-05.12.23:115][527]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020B84092600), frame # 1527
+[2021.05.26-05.12.23:116][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.05.26-05.12.23:139][528]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.05.26-05.12.23:145][528]LogEngine: Changing dynamic resolution state.
+[2021.05.26-05.22.11:125][469]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.26-05.55.58:481][520]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{d9d55cd6-438a-4d5d-85ae-9acd6a71ded9}.
+[2021.05.26-05.55.58:481][520]LogTemp: Resetting audio stream to device id 
+[2021.05.26-05.55.58:496][520]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-05.55.58:496][520]LogAudioMixer: Display: 1: FrontRight
