@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-VRActionProject-9454.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\sotaro fukumoto\Documents\GitHub\VRwire\Intermediate\Build\Win64\VRActionProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\sotaro fukumoto\Documents\GitHub\VRwire\Intermediate\Build\Win64\UE4Editor\Development\VRActionProject\ENEMYAIController.cpp.obj"
+"C:\Users\sotaro fukumoto\Documents\GitHub\VRwire\Intermediate\Build\Win64\UE4Editor\Development\VRActionProject\MyPlayerController.cpp.obj"
+"C:\Users\sotaro fukumoto\Documents\GitHub\VRwire\Intermediate\Build\Win64\UE4Editor\Development\VRActionProject\VRActionProject.cpp.obj"
+"C:\Users\sotaro fukumoto\Documents\GitHub\VRwire\Intermediate\Build\Win64\UE4Editor\Development\VRActionProject\ENEMYAIController.gen.cpp.obj"
+"C:\Users\sotaro fukumoto\Documents\GitHub\VRwire\Intermediate\Build\Win64\UE4Editor\Development\VRActionProject\MyPlayerController.gen.cpp.obj"
+"C:\Users\sotaro fukumoto\Documents\GitHub\VRwire\Intermediate\Build\Win64\UE4Editor\Development\VRActionProject\VRActionProject.init.gen.cpp.obj"
+"C:\Users\sotaro fukumoto\Documents\GitHub\VRwire\Intermediate\Build\Win64\UE4Editor\Development\VRActionProject\Default.rc2.res"
+/OUT:"C:\Users\sotaro fukumoto\Documents\GitHub\VRwire\Intermediate\Build\Win64\UE4Editor\Development\VRActionProject\UE4Editor-VRActionProject-9454.lib"
+/INCLUDE:IMPLEMENT_MODULE_VRActionProject
