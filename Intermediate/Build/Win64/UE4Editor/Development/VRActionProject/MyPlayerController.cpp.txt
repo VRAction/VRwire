@@ -1,3 +1,0 @@
-C:\Users\sotaro fukumoto\Documents\GitHub\VRwire\Intermediate\Build\Win64\UE4Editor\Development\VRActionProject\Definitions.VRActionProject.h
-c:\users\sotaro fukumoto\documents\github\vrwire\source\vractionproject\MyPlayerController.h
-C:\Users\sotaro fukumoto\Documents\GitHub\VRwire\Intermediate\Build\Win64\UE4Editor\Inc\VRActionProject\MyPlayerController.generated.h
